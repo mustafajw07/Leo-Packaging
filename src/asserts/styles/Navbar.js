@@ -24,7 +24,7 @@ const Wrapper = styled.main`
 .navbar-container{
     display: flex;
     justify-content: space-between;
-    height: 64px;
+    height: auto;
     align-items: center;
 }
 
@@ -35,6 +35,8 @@ const Wrapper = styled.main`
 .logo{
     order: 1;
     font-size: 2.3rem;
+    width: 75px;
+    height: 75px;
 }
 
 .menu-items li{
@@ -67,7 +69,7 @@ const Wrapper = styled.main`
     .navbar-container{
         display: block;
         position: relative;
-        height: 64px;
+        height: 86px;
     }
 
     .navbar-container input[type="checkbox"]{

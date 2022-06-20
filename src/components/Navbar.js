@@ -1,5 +1,6 @@
 import Wrapper from "../asserts/styles/Navbar"
 import { Link } from "react-router-dom";
+import logo from "../asserts/images/logo.png"
 
 function Navbar() {
   return (
@@ -18,7 +19,7 @@ function Navbar() {
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/contact">Contact</Link></li>
             </ul>
-            <img src="" alt = "Logo" className="logo"/>
+            <img src={logo} alt = "Logo" className="logo"/>
         </div>
     </nav>
     </Wrapper>
