@@ -1,5 +1,9 @@
+import Navbar from "../components/Navbar";
+
 function Products() {
-  return <div>products</div>;
+  return <>
+  <Navbar />
+  </>;
 }
 
 export default Products;

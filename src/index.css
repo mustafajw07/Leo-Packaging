@@ -4,6 +4,13 @@ F9F5F2 - white
 BF8F4E - golden
 */
 
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
 body {
   margin: 0;
