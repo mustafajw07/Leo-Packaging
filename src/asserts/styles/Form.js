@@ -27,13 +27,6 @@ const Wrapper = styled.section`
  textarea:focus {
    outline: 0;
  }
-
- textarea:focus~span {
-   width: 100%;
-   -webkit-transition: all 0.075s ease;
-   transition: all 0.075s ease;
- }
-
  textarea {
     width: 100%;
   height: 10rem;
@@ -47,7 +40,6 @@ const Wrapper = styled.section`
   box-shadow: var(--shadow-2);
   padding: 2rem 2.5rem;
   margin: 3rem auto;
-  transition: var(--transition);
   border-top: 5px solid #BF8F4E;
 }
 .form-label {
@@ -87,11 +79,18 @@ display: grid;
   }
 @media (max-width: 768px){
     .form {
-    max-width: 360px;
+    max-width: 450px;
     height: auto;
     background-color: #2D2D2D;
-    opacity: 0.9;
+    opacity: 0.8;
+    margin-top: 150px;
   }
+  textarea {
+    width: 100%;
+  height: 5rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 5px;
+ }
 }
 `
 

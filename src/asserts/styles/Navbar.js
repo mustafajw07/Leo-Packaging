@@ -58,6 +58,7 @@ const Wrapper = styled.main`
 
 @media (max-width: 768px){
     .navbar{
+        position: fixed;
         opacity: 1;
     }
 
@@ -162,14 +163,12 @@ const Wrapper = styled.main`
         transform: rotate(-45deg);
     }
 
+    @media (max-width: 500px){
+  .navbar-container input[type="checkbox"]:checked ~ .logo{
+      display: none;
+  }
 }
-
-@media (max-width: 500px){
-    .navbar-container input[type="checkbox"]:checked ~ .logo{
-        display: none;
-    }
 }
-
 `
 
 export default Wrapper;

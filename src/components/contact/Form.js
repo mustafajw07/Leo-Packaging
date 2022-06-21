@@ -20,12 +20,10 @@ function Form() {
           </label>
           <input name="email" type="text" id="email" className="form-input" />
         </div>
-        <div className="col-xs-12">
 				<div className="styled-input wide">
-					<label htmlFor="message" className="form-label">Message</label>
-					<textarea required={true} id="message" name="messeage"></textarea>
+					<label className="form-label">Message</label>
+					<textarea name="messeage"></textarea>
 				</div>
-			</div>
         <div className="text-center">
             <button>Submit</button>
         </div>

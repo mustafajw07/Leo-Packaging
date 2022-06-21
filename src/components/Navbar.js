@@ -4,12 +4,13 @@ import logo from "../asserts/images/logo.png"
 
 
 
-function Navbar() {
+function Navbar({onClick}) {
+  
   return (
     <Wrapper>   
    <nav className="navbar">
         <div className="navbar-container container">
-            <input type="checkbox" name="" id=""/>
+            <input type="checkbox" name="" id="" onClick={onClick}/>
             <div className="hamburger-lines">
                 <span className="line line1"></span>
                 <span className="line line2"></span>
