@@ -24,7 +24,7 @@ const Wrapper = styled.main`
 .navbar-container{
     display: flex;
     justify-content: space-between;
-    height: auto;
+    height: 70px;
     align-items: center;
 }
 
@@ -35,8 +35,8 @@ const Wrapper = styled.main`
 .logo{
     order: 1;
     font-size: 2.3rem;
-    width: 75px;
-    height: 75px;
+    width: 70px;
+    height: 70px;
 }
 
 .menu-items li{
@@ -69,7 +69,7 @@ const Wrapper = styled.main`
     .navbar-container{
         display: block;
         position: relative;
-        height: 86px;
+        height: 64px;
     }
 
     .navbar-container input[type="checkbox"]{
@@ -130,8 +130,6 @@ const Wrapper = styled.main`
         margin-left: -40px;
         padding-left: 40px;
         transition: transform 0.5s ease-in-out;
-        box-shadow:  5px 0px 10px 0px #aaa;
-        overflow: scroll;
     }
 
     .navbar .menu-items li{
@@ -141,12 +139,14 @@ const Wrapper = styled.main`
     }
 
     .logo{
+        order: 1;
         position: absolute;
-        top: 10px;
+        top: 5px;
         right: 15px;
         font-size: 2.5rem;
+        width: 55px;
+        height: 55px;
     }
-
     .navbar-container input[type="checkbox"]:checked ~ .menu-items{
         transform: translateX(0);
     }
