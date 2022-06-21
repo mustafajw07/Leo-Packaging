@@ -139,7 +139,6 @@ const Wrapper = styled.main`
     }
 
     .logo{
-        order: 1;
         position: absolute;
         top: 5px;
         right: 15px;
