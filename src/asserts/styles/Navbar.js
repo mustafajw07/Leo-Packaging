@@ -168,9 +168,6 @@ const Wrapper = styled.main`
     .navbar-container input[type="checkbox"]:checked ~ .logo{
         display: none;
     }
-    .navbar-container input[type="checkbox"]:checked body{
-        display: none;
-    }
 }
 
 `
