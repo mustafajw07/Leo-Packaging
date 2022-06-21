@@ -121,6 +121,7 @@ const Wrapper = styled.main`
     }
 
     .navbar .menu-items{
+        height: auto;
         padding-top: 100px;
         background: #2D2D2D;
         height: 100vh;

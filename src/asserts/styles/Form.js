@@ -79,7 +79,7 @@ display: grid;
   }
 @media (max-width: 768px){
     .form {
-    max-width: 450px;
+    max-width: 380px;
     height: auto;
     background-color: #2D2D2D;
     opacity: 0.8;
