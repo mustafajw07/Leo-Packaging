@@ -17,7 +17,7 @@ const Wrapper = styled.main`
     width: 100%;
     background: #2D2D2D;
     color: #F9F5F2;
-    opacity: 0.85;
+    opacity: 1;
     z-index: 100;
 }
 
@@ -58,7 +58,7 @@ const Wrapper = styled.main`
 
 @media (max-width: 768px){
     .navbar{
-        opacity: 0.95;
+        opacity: 1;
     }
 
     .navbar-container input[type="checkbox"],
