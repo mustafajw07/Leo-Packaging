@@ -17,7 +17,7 @@ a{
 
 @media (max-width: 768px){
     img{
-    width: 400px;
+    width: 375px;
     height: 400px;
     margin: 30px 0;
 }
