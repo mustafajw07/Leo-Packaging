@@ -24,7 +24,7 @@ function Form() {
 					<label className="form-label">Message</label>
 					<textarea name="messeage"></textarea>
 				</div>
-        <button><a href="#" class="btn-flip" data-back="Submit" data-front="Ready?"></a></button>
+        <button><a href="#" className="btn-flip" data-back="Submit" data-front="Ready?"></a></button>
       </form>
       </div>
     </Wrapper>

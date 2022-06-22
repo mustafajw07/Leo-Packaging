@@ -11,7 +11,7 @@ const Wrapper = styled.section`
  }
 
  .styled-input.wide {
-   width: 650px;
+   width: 693px;
    max-width: 100%;
  }
 
