@@ -22,7 +22,7 @@ function Navbar({onClick}) {
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/contact">Contact</Link></li>
             </ul>
-            <img src={logo} alt = "Logo" className="logo"/>
+            <Link to="/"><img src={logo} alt = "Logo" className="logo"/></Link>
         </div>
     </nav>
     </Wrapper>
