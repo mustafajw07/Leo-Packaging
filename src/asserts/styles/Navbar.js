@@ -13,7 +13,6 @@ const Wrapper = styled.main`
 }
 
 .navbar{
-    box-shadow: 0px 5px 10px 0px #aaa;
     width: 100%;
     background: #2D2D2D;
     color: #F9F5F2;
@@ -58,7 +57,7 @@ const Wrapper = styled.main`
 
 @media (max-width: 768px){
     .navbar{
-        position: fixed;
+        position: relative;
         opacity: 1;
     }
 
@@ -121,7 +120,7 @@ const Wrapper = styled.main`
     }
 
     .navbar .menu-items{
-        height: auto;
+        height: 100vh;
         padding-top: 100px;
         background: #2D2D2D;
         height: 100vh;
