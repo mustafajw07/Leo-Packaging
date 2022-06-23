@@ -4,6 +4,7 @@ import Banner from "../components/about/Banner";
 import AboutUs from "../components/about/AboutUs";
 import WhatWeDo from "../components/about/WhatWeDo";
 import WhatSetUsApart from "../components/about/WhatSetUsApart";
+import Team from "../components/about/Team";
 
 function About() {
   return <>
@@ -12,6 +13,7 @@ function About() {
   <AboutUs />
   <WhatWeDo />
   <WhatSetUsApart />
+  <Team />
   <Footer />
   </>;
 }
