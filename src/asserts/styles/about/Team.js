@@ -78,13 +78,11 @@ hr {
 .content .detail h2 {
   color: #444;
   font-size: 1.6em;
-  font-weight: bolder;
 }
 
 .content .detail h2 span {
   font-size: 0.7em;
   color: #03a9f4;
-  font-weight: bold;
 }
 
 .sci {
@@ -121,6 +119,19 @@ hr {
     .card{
   margin: 0 auto;
   width: 85%;
+}
+.content .detail h2 {
+  color: #444;
+  font-size: 1.3em;
+}
+
+.content .detail h2 span {
+  font-size: 0.5em;
+  color: #03a9f4;
+}
+.sci li a {
+  width: 30px;
+  height: 30px;
 }
 }
 `

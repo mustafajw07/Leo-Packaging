@@ -19,10 +19,10 @@ h3{
 }
 @media (max-width: 768px){
     .banner{
-        height: 10vh;
+        height: 12vh;
     }
     h3{
-        font-size: 45px;
+        font-size: 48px;
     }
 }
 `
