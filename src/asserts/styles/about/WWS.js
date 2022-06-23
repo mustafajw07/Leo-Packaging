@@ -64,7 +64,25 @@ p{
 @media (max-width: 768px){
     .card{
   margin: 0 auto;
-  width: 85%;
+  width: 100%;
+  height: 340px;
+}
+.info h2{
+   font-size: 23px;
+}
+p{
+    font-size: 17px;
+}
+.info img{
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+}
+h2{
+    font-size: 35px;
+}
+hr {
+    width: 325px;
 }
 }
 `
