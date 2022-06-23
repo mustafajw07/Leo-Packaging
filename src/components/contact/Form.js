@@ -1,4 +1,4 @@
-import Wrapper from "../../asserts/styles/Form";
+import Wrapper from "../../asserts/styles/contact/Form";
 
 function Form() {
   return <>
