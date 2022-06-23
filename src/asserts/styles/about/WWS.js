@@ -65,7 +65,7 @@ p{
     .card{
   margin: 0 auto;
   width: 100%;
-  height: 340px;
+  height: 325px;
 }
 .info h2{
    font-size: 23px;
