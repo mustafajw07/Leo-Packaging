@@ -11,6 +11,7 @@ const Wrapper = styled.div`
     align-items: center;
     justify-content: center;
     border-top: 5px solid #BF8F4E;
+    border-bottom: 5px solid #BF8F4E;
 }
 h3{
     color: #F9F5F2;

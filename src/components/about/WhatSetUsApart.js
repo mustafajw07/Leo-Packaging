@@ -5,9 +5,10 @@ import q from "./asserts/quality.png"
 
 function WhatSetUsApart() {
     return <Wrapper>
-        <h3>What sets us apart?</h3>
-        <div class="card_wrapper">
-            <div class="card">
+        <h2>What sets us apart?</h2>
+        <hr />
+        <div className="card_wrapper">
+            <div className="card">
                 <div className="info">
                     <img src={f} alt="50%" />
                     <h2> Faster</h2>
@@ -18,7 +19,7 @@ function WhatSetUsApart() {
                         working days</p>
                 </div>
             </div>
-            <div class="card">
+            <div className="card">
                 <div className="info">
                     <img src={q} alt="50%" />
                     <h2>Quality Assurance</h2>
@@ -29,7 +30,7 @@ function WhatSetUsApart() {
                         consistent quality</p>
                 </div>
             </div>
-            <div class="card">
+            <div className="card">
                 <div className="info">
                     <img src={f} alt="50%" />
                     <h2>Cheaper</h2>
@@ -40,7 +41,6 @@ function WhatSetUsApart() {
                         competitors</p>
                 </div>
             </div>
-
         </div>
     </Wrapper>;
 }

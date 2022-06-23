@@ -8,11 +8,24 @@ const Wrapper  = styled.div`
   //
   margin: 0 auto;
   max-width: 1140px;
-  padding: 30px 28px;
+  padding: 20px 28px 30px;
   grid-gap: 30px;
   align-items: stretch;
 }
-
+h2{
+    text-align: center;
+    margin-bottom: 1px;
+    color: #2D2D2D;
+    font-size: 40px;
+}
+hr {
+    height: 3px;
+    background-color: #BF8F4E;
+    margin: auto;
+    width: 375px;
+    margin-top: 0em;
+   margin-bottom: 0em;
+}
 .card {
   display: block;
   transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
@@ -20,7 +33,7 @@ const Wrapper  = styled.div`
   border-radius: 4px;
   box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
   width: 100%;
-  height: 340px;
+  height: 320px;
   &:hover {
     transform: scale(1.03);
   }
@@ -32,7 +45,8 @@ const Wrapper  = styled.div`
     text-align: center;
     color: #2d2d2d;
   margin: 50px 0 30px;
-
+  padding: 0 30px;
+    
 }
 .info h2{
    margin: 7px 0;
