@@ -122,16 +122,16 @@ hr {
 }
 .content .detail h2 {
   color: #444;
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 .content .detail h2 span {
-  font-size: 0.5em;
+  font-size: 0.6em;
   color: #03a9f4;
 }
 .sci li a {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 }
 }
 `
