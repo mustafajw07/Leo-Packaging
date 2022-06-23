@@ -64,7 +64,7 @@ p{
 @media (max-width: 768px){
     .card{
   margin: 0 auto;
-  width: 100%;
+  width: 85%;
   height: 315px;
 }
 .info h2{
