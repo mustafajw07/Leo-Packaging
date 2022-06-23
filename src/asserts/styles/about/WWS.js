@@ -50,7 +50,7 @@ p{
 @media (max-width: 768px){
     .card{
   margin: 0 auto;
-  width: 75%;
+  width: 85%;
 }
 }
 `

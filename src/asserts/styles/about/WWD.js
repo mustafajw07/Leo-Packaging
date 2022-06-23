@@ -32,6 +32,8 @@ hr {
 @media (max-width: 768px){
     .wwd{
   width: 75%;
+}p{
+    font-size: 20px;
 }
 }
 `

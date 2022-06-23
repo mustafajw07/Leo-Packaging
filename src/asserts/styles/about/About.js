@@ -30,6 +30,8 @@ hr {
 @media (max-width: 768px){
     .about{
   width: 75%;
+}p{
+  font-size: 20px;
 }
 }
 `
