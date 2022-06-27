@@ -55,6 +55,7 @@ hr {
 p{
     margin: 10px 0;
     font-size: 20px;
+    color: #BF8F4E;
 }
 .info img{
     width: 60px;

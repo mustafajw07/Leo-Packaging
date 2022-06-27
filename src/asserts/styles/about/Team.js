@@ -7,7 +7,7 @@ const Wrapper = styled.div`
     font-size: 40px;
     text-align: center;
 }
-hr {
+hr{
     height: 3px;
     background-color: #BF8F4E;
     margin: auto;
@@ -30,10 +30,13 @@ hr {
   height: 400px;
   background: #fff;
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.1);
+  background-color: #eae5e1;    
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(15px);
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+  &:hover {
+    transform: scale(1.03);
+  }
 }
 
 .img-bx {
@@ -76,13 +79,13 @@ hr {
 }
 
 .content .detail h2 {
-  color: #444;
+  color: #2D2D2D;
   font-size: 1.6em;
 }
 
 .content .detail h2 span {
   font-size: 0.7em;
-  color: #03a9f4;
+  color: #BF8F4E;
 }
 
 .sci {
