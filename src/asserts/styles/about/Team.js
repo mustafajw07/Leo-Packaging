@@ -124,13 +124,13 @@ hr{
   width: 85%;
 }
 .content .detail h2 {
-  color: #444;
+  color: #2D2D2D;
   font-size: 1.5em;
 }
 
 .content .detail h2 span {
   font-size: 0.6em;
-  color: #03a9f4;
+  color: #BF8F4E;
 }
 .sci li a {
   width: 40px;
