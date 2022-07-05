@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Wrapper = styled.footer`
 .footer{
 background:#2D2D2D;
-padding:30px 0px;
+padding:7px 0px;
 font-family: 'Play', sans-serif;
 text-align:center;
 }
@@ -13,7 +13,7 @@ width:100%;
 margin:1% 0%;
 padding:0.6% 0%;
 color:gray;
-font-size:0.8em;
+font-size:15px;
 }
 
 .footer .row a{
@@ -28,6 +28,7 @@ color:#fff;
 
 .footer .row ul{
 width:100%;
+font-size: 14px;
 }
 
 .footer .row ul li{

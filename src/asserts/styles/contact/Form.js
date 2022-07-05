@@ -142,7 +142,6 @@ button {
     height: auto;
     background-color: #2D2D2D;
     opacity: 0.8;
-    margin-top: 150px;
   }
   textarea {
     width: 100%;

@@ -1,9 +1,6 @@
 import styled from "styled-components";
 
 const Wrapper = styled.main`
-.head{
-    margin: 0 0 10px;
-}
 header {
   position: relative;
   background-color: black;
@@ -56,15 +53,6 @@ header .overlay {
 }
 .video div{
     margin-bottom: 0;
-}
-@media (pointer: coarse) and (hover: none) {
-  header {
-    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
-  }
-
-  header video {
-    display: none;
-  }
 }
 @media (max-width: 768px){
     .head{
