@@ -4,7 +4,7 @@ function Video() {
   return <Wrapper>
   <header className="head">
 <div className="overlay"></div>
-<video playsinline="playsInline" autoplay="autoPlay" muted="muted" loop="loop">
+<video playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop">
   <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4" />
 </video>
 <div className="container">
