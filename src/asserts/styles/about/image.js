@@ -29,7 +29,7 @@ const Wrapper = styled.div`
   header .container {
     position: relative;
     z-index: 2;
-    height: 100%;
+    height: 50%;
   }
 
   header .overlay {
@@ -55,10 +55,10 @@ const Wrapper = styled.div`
     margin-bottom: 0;
   }
   @media (max-width: 768px) {
-    header img{
+    header img {
       height: 200px;
     }
-    header .container{
+    header .container {
       height: 150px;
     }
   }

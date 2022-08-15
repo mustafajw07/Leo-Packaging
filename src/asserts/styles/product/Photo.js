@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Wrapper = styled.div`
- header {
+  header {
     position: relative;
     height: 75vh;
     min-height: 25rem;
@@ -17,7 +17,7 @@ const Wrapper = styled.div`
     min-height: 100%;
     object-fit: cover;
     object-position: 50% 50%;
-    width: 100%; 
+    width: 100%;
     height: 500px;
     z-index: 0;
     -ms-transform: translateX(-50%) translateY(-50%);
@@ -29,7 +29,7 @@ const Wrapper = styled.div`
   header .container {
     position: relative;
     z-index: 2;
-    height: 100%;
+    height: 50%;
   }
 
   header .overlay {
@@ -55,10 +55,10 @@ const Wrapper = styled.div`
     margin-bottom: 0;
   }
   @media (max-width: 768px) {
-    header img{
+    header img {
       height: 200px;
     }
-    header .container{
+    header .container {
       height: 150px;
     }
   }
