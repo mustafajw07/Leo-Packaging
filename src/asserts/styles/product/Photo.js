@@ -56,13 +56,13 @@ const Wrapper = styled.div`
   }
   @media (max-width: 768px) {
     header {
-      height: 30vh;
+      height: 51vh;
       overflow: inherit;
       min-height: auto;
     }
     header .pic{
-      top: 35%;
-      height: 300px;
+      top: 40%;
+      height: 307px;
     }
     header .container{
       height: 100px;

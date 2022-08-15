@@ -56,17 +56,17 @@ const Wrapper = styled.div`
   }
   @media (max-width: 768px) {
     header {
-      height: 30vh;
+      height: 44vh;
       overflow: inherit;
       min-height: auto;
     }
     header .pic{
-      top: 35%;
+      top: 50%;
       min-height: auto;
-      height: 300px;
+      height: 374px;
     }
     header .container{
-      height: 100px;
+      height: 110px;
     }
   }
 `;
