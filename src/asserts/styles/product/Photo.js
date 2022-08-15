@@ -33,6 +33,8 @@ const Wrapper = styled.div`
   }
 
   header .overlay {
+    background-color:black ;
+    opacity: 0.5;
     position: absolute;
     top: 0;
     left: 0;
@@ -59,6 +61,9 @@ const Wrapper = styled.div`
       height: 44vh;
       overflow: inherit;
       min-height: auto;
+    }
+    header .overlay{
+      background-color: transparent;
     }
     header .pic{
       top: 50%;

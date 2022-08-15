@@ -1,6 +1,7 @@
-import React from "react";
 import Wrapper from "../../asserts/styles/about/image";
 import Navbar from "../Navbar";
+import main from "./assets/main.jpeg"
+
 function Image() {
   return (
     <Wrapper>
@@ -8,9 +9,9 @@ function Image() {
         <div className="overlay"></div>
         <Navbar />
         <img
+          src={main}
           className="pic"
-          alt="productimg"
-          src="https://static.wixstatic.com/media/cc923e_3cc764de9dc1451598aae12930ad7a67~mv2.jpg/v1/fill/w_1899,h_990,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cc923e_3cc764de9dc1451598aae12930ad7a67~mv2.jpg"
+          alt="main"
         />
 
         <div className="container">

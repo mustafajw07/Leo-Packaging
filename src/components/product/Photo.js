@@ -1,6 +1,6 @@
-import React from "react";
 import Wrapper from "../../asserts/styles/product/Photo";
 import Navbar from "../Navbar";
+import main from "./assets/main.jpeg"
 
 function Photo() {
   return (
@@ -11,7 +11,7 @@ function Photo() {
         <img
           className="pic"
           alt="productimg"
-          src="https://static.wixstatic.com/media/cc923e_942520dea7c9473a8534a7a31046102d~mv2.jpg/v1/fill/w_1000,h_377,al_c,q_85,enc_auto/cc923e_942520dea7c9473a8534a7a31046102d~mv2.jpg"
+          src={main}
         />
 
         <div className="container">

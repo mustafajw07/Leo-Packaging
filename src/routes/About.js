@@ -5,7 +5,6 @@ function About() {
   return (
     <>
       <Image />
-
       <Footer />
     </>
   );

@@ -8,15 +8,15 @@ function productImg() {
     <Wrapper>
       <div className="box">
         <div>
-          <img class="item" src={pic1} alt="Example image" />
+          <img class="item" src={pic1} alt="products pic" />
           <p>Corrugated Roll</p>
         </div>
         <div>
-          <img class="item" src={pic2} alt="Example image" />
+          <img class="item" src={pic2} alt="products pic" />
           <p>Corrugated Roll</p>
         </div>
         <div>
-          <img class="item" src={pic1} alt="Example image" />
+          <img class="item" src={pic1} alt="products pic" />
           <p>Corrugated Roll</p>
         </div>
       </div>
