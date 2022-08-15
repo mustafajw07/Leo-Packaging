@@ -55,11 +55,18 @@ const Wrapper = styled.div`
     margin-bottom: 0;
   }
   @media (max-width: 768px) {
-    header img{
-      height: 200px;
+    header {
+      height: 30vh;
+      overflow: inherit;
+      min-height: auto;
+    }
+    header .pic{
+      top: 35%;
+      min-height: auto;
+      height: 300px;
     }
     header .container{
-      height: 150px;
+      height: 100px;
     }
   }
 `;
