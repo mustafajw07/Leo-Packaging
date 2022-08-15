@@ -1,20 +1,14 @@
-import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Banner from "../components/about/Banner";
-import WhatWeDo from "../components/about/WhatWeDo";
-import WhatSetUsApart from "../components/about/WhatSetUsApart";
-import Team from "../components/about/Team";
-
+import Image from "../components/about/Image";
 
 function About() {
-  return <>
-  <Navbar />
-  <Banner />
-  <WhatWeDo />
-  <WhatSetUsApart />
-  <Team />
-  <Footer />
-  </>;
+  return (
+    <>
+      <Image />
+
+      <Footer />
+    </>
+  );
 }
 
 export default About;
