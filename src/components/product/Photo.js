@@ -8,9 +8,9 @@ function Photo() {
       <header className="head">
         <div className="overlay"></div>
         <Navbar />
-
         <img
           className="pic"
+          alt="productimg"
           src="https://static.wixstatic.com/media/cc923e_942520dea7c9473a8534a7a31046102d~mv2.jpg/v1/fill/w_1000,h_377,al_c,q_85,enc_auto/cc923e_942520dea7c9473a8534a7a31046102d~mv2.jpg"
         />
 
@@ -31,12 +31,3 @@ function Photo() {
 }
 
 export default Photo;
-
-{
-  /* <header></header>
-<Navbar />
-<img
-  className="pic"
-  src="https://static.wixstatic.com/media/cc923e_942520dea7c9473a8534a7a31046102d~mv2.jpg/v1/fill/w_1000,h_377,al_c,q_85,enc_auto/cc923e_942520dea7c9473a8534a7a31046102d~mv2.jpg"
-></img> */
-}

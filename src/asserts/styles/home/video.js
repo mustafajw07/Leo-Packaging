@@ -12,16 +12,10 @@ const Wrapper = styled.main`
 
   header video {
     position: absolute;
-    top: 100%;
+    top: 80%;
     left: 50%;
     min-width: 100%;
     min-height: 100%;
-    // width: auto;
-    // height: auto;
-    object-fit: cover;
-    object-position: 50% 50
-    width: 1519px; 
-    height: 1009px
     z-index: 0;
     -ms-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
