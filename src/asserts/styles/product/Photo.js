@@ -11,13 +11,14 @@ const Wrapper = styled.div`
 
   header .pic {
     position: absolute;
+    top: 50%;
     left: 50%;
     min-width: 100%;
     min-height: 100%;
     object-fit: cover;
     object-position: 50% 50%;
     width: 100%; 
-    height: 1009px;
+    height: 500px;
     z-index: 0;
     -ms-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
@@ -54,11 +55,11 @@ const Wrapper = styled.div`
     margin-bottom: 0;
   }
   @media (max-width: 768px) {
-    .head {
-      height: 0vh;
+    header img{
+      height: 200px;
     }
-    header .pic {
-      top : 100%;
+    header .container{
+      height: 150px;
     }
   }
 `;

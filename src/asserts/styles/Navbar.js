@@ -14,8 +14,6 @@ const Wrapper = styled.main`
 
   .navbar {
     width: 100%;
-    // background: #2d2d2d;
-    // background-color: transparent;
     color: #f9f5f2;
     opacity: 1;
     z-index: 100;

@@ -6,14 +6,19 @@ const Wrapper = styled.main`
     height: 75vh;
     min-height: 25rem;
     width: 100%;
+    overflow: hidden;
   }
 
   header video {
     position: absolute;
-    top: 80%;
+    top: 50%;
     left: 50%;
     min-width: 100%;
     min-height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 100%; 
+    height: 767px;
     z-index: 0;
     -ms-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
@@ -50,8 +55,11 @@ const Wrapper = styled.main`
     margin-bottom: 0;
   }
   @media (max-width: 768px) {
-    .head {
-      height: 0vh;
+    header video{
+      height: 374px;
+    }
+    header .container{
+      height: 150px;
     }
   }
 `;
