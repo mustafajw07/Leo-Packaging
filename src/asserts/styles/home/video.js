@@ -17,7 +17,7 @@ const Wrapper = styled.main`
     min-height: 100%;
     object-fit: cover;
     object-position: 50% 50%;
-    width: 100%; 
+    width: 100%;
     height: 767px;
     z-index: 0;
     -ms-transform: translateX(-50%) translateY(-50%);
@@ -29,7 +29,7 @@ const Wrapper = styled.main`
   header .container {
     position: relative;
     z-index: 2;
-    height: 100%;
+    height: 50%;
   }
 
   header .overlay {
@@ -55,10 +55,10 @@ const Wrapper = styled.main`
     margin-bottom: 0;
   }
   @media (max-width: 768px) {
-    header video{
+    header video {
       height: 374px;
     }
-    header .container{
+    header .container {
       height: 150px;
     }
   }
