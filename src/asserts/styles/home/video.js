@@ -3,11 +3,9 @@ import styled from "styled-components";
 const Wrapper = styled.main`
   header {
     position: relative;
-    background-color: black;
     height: 75vh;
     min-height: 25rem;
     width: 100%;
-    overflow: hidden;
   }
 
   header video {
@@ -35,7 +33,6 @@ const Wrapper = styled.main`
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
     opacity: 0.5;
     z-index: 1;
   }
