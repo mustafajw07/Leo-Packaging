@@ -2,82 +2,127 @@ import styled from "styled-components";
 
 
 const Wrapper = styled.section`
-.styled-input {
-   float: left;
-   width: 293px;
-   margin-bottom : 20px;
-   position: relative;
-   border-radius: 4px;
- }
-
- .styled-input.wide {
-   width: 693px;
-   max-width: 100%;
- }
-
- textarea {
-   border: 0;
-   width: 100%;
-   background-color: #F9F5F2;
-   color: #2D2D2D;
-   border-radius: 5px;
- }
-
- input:focus,
- textarea:focus {
-   outline: 0;
- }
- textarea {
+.container {
+    max-width: 1140px;
     width: 100%;
-  height: 10rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 5px;
- }
-.form {
-  /* width: 100%; */
-  max-width: 100%;
-  border-radius: 10px;
-  box-shadow: var(--shadow-2);
-  padding: 2rem 2.5rem;
-  margin: 3rem auto;
-  border-top: 5px solid #BF8F4E;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
-.form-label {
-  display: block;
-  font-size: 18px;
-  margin-bottom: 0.5rem;
-  text-transform: capitalize;
+.row{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-bottom: 30px;
+  margin-right: -15px;
+  margin-left: -15px;
 }
-.form-input
-{  
-    background-color: #F9F5F2;
-    color: #2D2D2D;
-  width: 100%;
-  height: 45px;
-  padding: 0.375rem 0.75rem;
-  border-radius: 5px;
+.address{
+  width: 50%;
+  margin-left: 10px;
+  line-height: 1.5;
 }
-.form-box{
-  margin: 20px 0;
+.address p{
+ font-size: 30px;
+ padding-left: 35px;
 }
-display: grid;
-  align-items: center;
-  .form {
-    max-width: 775px;
-    background-color: #2D2D2D;
-    opacity: 0.9;
-  }
-  h3 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    color: #F9F5F2;
-    font-size: 35px;
-    margin-bottom: 35px;
-  } 
-  label{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #F9F5F2;
-  }
+.address p{
+  visibility: visible;
+  animation: fadeInUp ease 7s;
+}
+.address p i {
+  font-size: 20px;
+  padding-right: 10px;
+}
+p{
+  margin-top: 0;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.01em;
+    margin-bottom: 20px;
+}
+
+@keyframes  fadeInUp{
+    0% {
+                opacity: 0;
+                transform: translate3d(0, 30px, 0);
+            }
+            100% {
+                opacity: 1;
+                transform: translate3d(0, 0, 0);
+            }
+        }  
+.form{
+  margin-right: 10px;
+  width: 50%;
+}
+
+/* From uiverse.io by @alexruix */
+.input {
+ line-height: 28px;
+ width: 70% ;
+ border: 2px solid transparent;
+ border-bottom-color: #777;
+ padding: .2rem 0;
+ outline: none;
+ background-color: transparent;
+ color: #0d0c22;
+ -webkit-transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+ transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+ margin: 12px;
+}
+
+.input::-webkit-input-placeholder {
+ color: #777;
+}
+
+.input::-moz-placeholder {
+ color: #777;
+}
+
+.input:-ms-input-placeholder {
+ color: #777;
+}
+
+.input::-ms-input-placeholder {
+ color: #777;
+}
+
+.input::placeholder {
+ color: #777;
+}
+
+.input:focus::-webkit-input-placeholder {
+ opacity: 0;
+ -webkit-transition: opacity .3s;
+ transition: opacity .3s;
+}
+
+.input:focus::-moz-placeholder {
+ opacity: 0;
+ -moz-transition: opacity .3s;
+ transition: opacity .3s;
+}
+
+.input:focus:-ms-input-placeholder {
+ opacity: 0;
+ -ms-transition: opacity .3s;
+ transition: opacity .3s;
+}
+
+.input:focus::-ms-input-placeholder {
+ opacity: 0;
+ -ms-transition: opacity .3s;
+ transition: opacity .3s;
+}
+
+.input:focus::placeholder {
+ opacity: 0;
+ -webkit-transition: opacity .3s;
+ transition: opacity .3s;
+}
+
   .btn-flip {
   opacity: 1;
   outline: 0;

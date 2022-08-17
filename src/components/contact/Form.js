@@ -5,34 +5,24 @@ function Form() {
   return (
     <>
       <Wrapper className="full-page">
-        <div className="form">
-          <form>
-            <h3>Get in touch</h3>
-            {/* name */}
-            <div className="form-box">
-              <label htmlFor="name" className="form-label">
-                Name
-              </label>
-              <input name="name" type="text" id="name" className="form-input" />
+        <div className="container">
+          <div className="row">
+            <div className="address">
+              <p><i className="fa-solid fa-location-dot"></i>Address</p>
+              <p><i className="fa-solid fa-phone"></i>+971 528676222</p>
+              <p><i className="fa-brands fa-whatsapp"></i>+971 528676222</p>
+              <p><i className="fa-solid fa-envelope"></i>moiz@alzamanpacks.com</p>
             </div>
-            {/* email */}
-            <div className="form-box">
-              <label htmlFor="email" className="form-label">
-                Email
-              </label>
-              <input
-                name="email"
-                type="text"
-                id="email"
-                className="form-input"
-              />
+            <div className="form">
+              <form>
+              <input placeholder="Name" type="text" class="input" required="" />
+              <input placeholder="Email" type="text" class="input" required="" />
+              <input placeholder="Phone" type="text" class="input" required="" />
+              {/* <br /> */}
+                {/* <button><a href="#" className="btn-flip" data-back="Submit" data-front="Ready?"></a></button> */}
+              </form>
             </div>
-            <div className="styled-input wide">
-              <label className="form-label">Message</label>
-              <textarea name="messeage"></textarea>
-            </div>
-            {/* <button><a href="#" className="btn-flip" data-back="Submit" data-front="Ready?"></a></button> */}
-          </form>
+          </div>
         </div>
       </Wrapper>
     </>

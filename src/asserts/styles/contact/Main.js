@@ -13,20 +13,20 @@ const Wrapper = styled.section`
 .page-title{
     display: block;
     margin-top: 140px;
-    margin-bottom: 45px;
-    font-size: 27px;
+    margin-bottom: 55px;
+    font-size: 40px;
     position: relative;
-    animation: fadeInAnimation ease 3s;
+    animation: fadeInAnimation ease 4s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 .title{
     visibility: visible;
-    animation: fadeInUp ease 3s;
-    margin : 0 0 100px;
+    animation: fadeInUp ease 5s;
+    margin : 0 0 150px;
 }
 .para{
-    font-size: 45px;
+    font-size: 46px;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
 

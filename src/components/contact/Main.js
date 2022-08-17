@@ -8,7 +8,7 @@ function Main() {
             <h1>Contact</h1>
         </span>
         <div className="title">
-            <p className="para">Our ears and email boxes are always open. To collaborate or discuss a project:</p>
+            <p className="para">Our ears and email boxes are always open. To collaborate or discuss a project :</p>
         </div>
     </div>
   </Wrapper>;
