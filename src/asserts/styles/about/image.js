@@ -29,7 +29,7 @@ const Wrapper = styled.div`
   header .container {
     position: relative;
     z-index: 2;
-    height: 50%;
+    height: 100%;
   }
 
   header .overlay {
@@ -38,6 +38,7 @@ const Wrapper = styled.div`
     left: 0;
     height: 100%;
     width: 100%;
+    background-color: black;
     opacity: 0.5;
     z-index: 1;
   }
@@ -55,6 +56,7 @@ const Wrapper = styled.div`
     margin-bottom: 0;
   }
   @media (max-width: 768px) {
+<<<<<<< HEAD
     header img {
       height: 200px;
     }
@@ -74,6 +76,23 @@ const Wrapper = styled.div`
       header .container {
         height: 110px;
       }
+=======
+    header {
+      height: 44vh;
+      overflow: inherit;
+      min-height: auto;
+    }
+    header .overlay{
+      background-color: transparent;
+    }
+    header .pic{
+      top: 50%;
+      min-height: auto;
+      height: 374px;
+    }
+    header .container{
+      height: 110px;
+>>>>>>> 1de53fbb6936b2f05e1858ec1f331f83d08b02df
     }
   }
 `;

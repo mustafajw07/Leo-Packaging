@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  header {
+ header {
     position: relative;
     height: 75vh;
     min-height: 25rem;
@@ -17,7 +17,7 @@ const Wrapper = styled.div`
     min-height: 100%;
     object-fit: cover;
     object-position: 50% 50%;
-    width: 100%;
+    width: 100%; 
     height: 500px;
     z-index: 0;
     -ms-transform: translateX(-50%) translateY(-50%);
@@ -29,10 +29,12 @@ const Wrapper = styled.div`
   header .container {
     position: relative;
     z-index: 2;
-    height: 50%;
+    height: 100%;
   }
 
   header .overlay {
+    background-color:black ;
+    opacity: 0.5;
     position: absolute;
     top: 0;
     left: 0;
@@ -55,17 +57,13 @@ const Wrapper = styled.div`
     margin-bottom: 0;
   }
   @media (max-width: 768px) {
-<<<<<<< HEAD
-    header img {
-      height: 200px;
-    }
-    header .container {
-      height: 150px;
-=======
     header {
       height: 44vh;
       overflow: inherit;
       min-height: auto;
+    }
+    header .overlay{
+      background-color: transparent;
     }
     header .pic{
       top: 50%;
@@ -74,7 +72,6 @@ const Wrapper = styled.div`
     }
     header .container{
       height: 110px;
->>>>>>> 2fd6ae51a2e972bbe9ac275eab5db64c4f899a09
     }
   }
 `;
