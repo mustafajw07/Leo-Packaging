@@ -1,6 +1,6 @@
 import Wrapper from "../../asserts/styles/about/image";
 import Navbar from "../Navbar";
-import main from "./assets/main.jpeg"
+import main from "./assets/main.jpeg";
 
 function Image() {
   return (
@@ -8,20 +8,16 @@ function Image() {
       <header className="head">
         <div className="overlay"></div>
         <Navbar />
-        <img
-          src={main}
-          className="pic"
-          alt="main"
-        />
+        <img src={main} className="pic" alt="main" />
 
         <div className="container">
           <div className="video">
             <div>
-              <h1>Al-Zaman</h1>
-              <p>
-                Al Zaman Packs is one of the leading Paper Core and Corrugated
-                Sheet manufacturers in UAE.
-              </p>
+              <p>COMPANY OVERVIEW</p>
+              <h1>
+                Providing Best Business Solution For Growing Your Business
+              </h1>
+              <p>We Have More Than 25+ Years Practical Experience</p>
             </div>
           </div>
         </div>

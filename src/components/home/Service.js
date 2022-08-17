@@ -12,7 +12,7 @@ function Service() {
             src="https://static.wixstatic.com/media/cc923e_ca47b21b920d4879b497dbb47dc5685b~mv2.png/v1/fill/w_138,h_130,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/boxes%2520copy_edited.png"
             alt=""
           ></img>
-          <p className="head">PLANNING and STRAGTEGY</p>
+          <p className="head">PLANNING & STRAGTEGY</p>
           <p className="info">
             AL-Zaman offers a wide range of customized packaging solutions for
             different types of transport modes.

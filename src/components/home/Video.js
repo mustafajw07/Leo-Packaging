@@ -21,11 +21,9 @@ function Video() {
         <div className="container">
           <div className="video">
             <div>
-              <h1>Al-Zaman</h1>
-              <p>
-                Al Zaman Packs is one of the leading Paper Core and Corrugated
-                Sheet manufacturers in UAE.
-              </p>
+              <p className="top">WE INVEST IN</p>
+              <h1>Your Future.</h1>
+              <p>PERFECT PACKAGING SOLUTIONS FOR YOUR BRAND.</p>
             </div>
           </div>
         </div>

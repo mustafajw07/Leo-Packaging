@@ -16,12 +16,12 @@ const Wrapper = styled.main`
   }
   .head {
     padding-right: 20px;
-    font-size: 20px;
+    font-size: 22px;
     padding-top: 20px;
     color: white;
   }
   .info {
-    font-size: 15px;
+    font-size: 20px;
     padding-top: 20px;
     color: white;
   }

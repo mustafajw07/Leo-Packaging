@@ -54,12 +54,32 @@ const Wrapper = styled.main`
   .video div {
     margin-bottom: 0;
   }
+  .top {
+    font-size: 30px;
+  }
+  div h1 {
+    font-size: 100px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 30px;
+  }
   @media (max-width: 768px) {
     header video {
       height: 374px;
     }
     header .container {
       height: 150px;
+    }
+    .top {
+      font-size: 20px;
+    }
+    div h1 {
+      font-size: 100px;
+      font-weight: bold;
+    }
+    p {
+      font-size: 20px;
     }
   }
 `;

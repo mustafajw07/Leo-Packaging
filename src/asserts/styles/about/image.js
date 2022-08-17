@@ -55,8 +55,14 @@ const Wrapper = styled.div`
   .video div {
     margin-bottom: 0;
   }
+  p {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
   @media (max-width: 768px) {
-<<<<<<< HEAD
     header img {
       height: 200px;
     }
@@ -76,23 +82,30 @@ const Wrapper = styled.div`
       header .container {
         height: 110px;
       }
-=======
-    header {
-      height: 44vh;
-      overflow: inherit;
-      min-height: auto;
-    }
-    header .overlay{
-      background-color: transparent;
-    }
-    header .pic{
-      top: 50%;
-      min-height: auto;
-      height: 374px;
-    }
-    header .container{
-      height: 110px;
->>>>>>> 1de53fbb6936b2f05e1858ec1f331f83d08b02df
+
+      header {
+        height: 44vh;
+        overflow: inherit;
+        min-height: auto;
+      }
+      header .overlay {
+        background-color: transparent;
+      }
+      header .pic {
+        top: 50%;
+        min-height: auto;
+        height: 374px;
+      }
+      header .container {
+        height: 110px;
+      }
+      p {
+        font-size: 20px;
+      }
+      h1 {
+        font-size: 30px;
+        font-weight: bold;
+      }
     }
   }
 `;
