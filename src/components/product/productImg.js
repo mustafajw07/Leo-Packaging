@@ -17,16 +17,6 @@ function productImg() {
         </div>
         <div>
           <img className="item" src={pic1} alt="Example " />
-
-          <img class="item" src={pic1} alt="products pic" />
-          <p>Corrugated Roll</p>
-        </div>
-        <div>
-          <img class="item" src={pic2} alt="products pic" />
-          <p>Corrugated Roll</p>
-        </div>
-        <div>
-          <img class="item" src={pic1} alt="products pic" />
           <p>Corrugated Roll</p>
         </div>
       </div>
