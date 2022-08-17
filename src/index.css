@@ -1,3 +1,7 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
+
 /* 
 F9F5F2 - white
 2D2D2D - black
@@ -6,21 +10,20 @@ BF8F4E - golden
 
 *,
 *::after,
-*::before{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
   margin: 0;
-  font-family: 'Meltow' ;
+  font-family: "Teko";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #F9F5F2;
+  background-color: #f9f5f2;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} 
+  font-family: "Teko", sans-serif;
+}

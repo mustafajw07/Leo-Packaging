@@ -55,26 +55,25 @@ const Wrapper = styled.div`
     margin-bottom: 0;
   }
   @media (max-width: 768px) {
-<<<<<<< HEAD
     header img {
       height: 200px;
     }
     header .container {
       height: 150px;
-=======
-    header {
-      height: 44vh;
-      overflow: inherit;
-      min-height: auto;
-    }
-    header .pic{
-      top: 50%;
-      min-height: auto;
-      height: 374px;
-    }
-    header .container{
-      height: 110px;
->>>>>>> 2fd6ae51a2e972bbe9ac275eab5db64c4f899a09
+
+      header {
+        height: 44vh;
+        overflow: inherit;
+        min-height: auto;
+      }
+      header .pic {
+        top: 50%;
+        min-height: auto;
+        height: 374px;
+      }
+      header .container {
+        height: 110px;
+      }
     }
   }
 `;

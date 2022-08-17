@@ -5,21 +5,14 @@ const Wrapper = styled.div`
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-
     background-color: #f9f5f2;
   }
-  .box .one {
-    background-color: #f1f1f1;
-    width: 100%;
-    margin: 10px;
-    text-align: center;
-    height: 100px;
-    overflow: hidden;
-  }
+
   .item {
     top: 50%;
     width: 200px;
     height: 300px;
+    border-radius: 10px;
     object-fit: cover;
     transition: all 0.3s ease;
   }
@@ -28,7 +21,6 @@ const Wrapper = styled.div`
   }
   p {
     font-size: 30px;
-    font-weight: 300;
   }
   @media (max-width: 768px) {
     .box {
@@ -42,6 +34,7 @@ const Wrapper = styled.div`
       top: 20%;
       width: 180px;
       height: 220px;
+      border-radius: 10px;
     }
     p {
       padding-bottom: 20px;
