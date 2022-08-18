@@ -5,8 +5,9 @@ const Wrapper = styled.main`
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: rgb(14 9 43);
+    background-color: #2d2d2d;
   }
+
   .container1 {
     padding: 120px;
   }
@@ -30,7 +31,7 @@ const Wrapper = styled.main`
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
-      background-color: rgb(14 9 43);
+      background-color: #2d2d2d;
     }
   }
 `;
