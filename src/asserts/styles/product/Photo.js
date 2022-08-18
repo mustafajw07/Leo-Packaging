@@ -54,14 +54,36 @@ const Wrapper = styled.div`
     width: 100%;
   }
   .video div {
-    margin-bottom: 0;
+    margin-bottom: 150px;
   }
   h1 {
     font-size: 50px;
+    visibility: visible;
+    animation: fadeInUp ease 5s;
   }
   p {
     font-size: 25px;
+    visibility: visible;
+    animation: fadeInUp ease 5s;
   }
+  @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+@keyframes  fadeInUp{
+    0% {
+                opacity: 0;
+                transform: translate3d(0, 30px, 0);
+            }
+            100% {
+                opacity: 1;
+                transform: translate3d(0, 0, 0);
+            }
+        }  
   @media (max-width: 768px) {
     header {
       height: 44vh;
