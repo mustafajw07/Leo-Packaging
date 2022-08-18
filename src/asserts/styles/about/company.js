@@ -54,12 +54,14 @@ const Wrapper = styled.div`
     }
 
     .company {
-      padding-left: 20px;
+      padding-left: 7px;
       padding-top: 20px;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
+    }
+    .logo {
     }
   }
 `;
