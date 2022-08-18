@@ -29,7 +29,7 @@ const Wrapper = styled.main`
   header .container {
     position: relative;
     z-index: 2;
-    height: 50%;
+    height: 70%;
   }
 
   header .overlay {
@@ -54,14 +54,14 @@ const Wrapper = styled.main`
     margin-bottom: 0;
   }
   .top {
-    font-size: 30px;
+    font-size: 65px;
   }
   div h1 {
-    font-size: 100px;
+    font-size: 75px;
     font-weight: bold;
   }
   p {
-    font-size: 30px;
+    font-size: 40px;
   }
   @media (max-width: 768px) {
     header video {
@@ -71,14 +71,14 @@ const Wrapper = styled.main`
       height: 150px;
     }
     .top {
-      font-size: 20px;
+      font-size: 35px;
     }
     div h1 {
-      font-size: 100px;
+      font-size: 50px;
       font-weight: bold;
     }
     p {
-      font-size: 20px;
+      font-size: 25px;
     }
   }
 `;
