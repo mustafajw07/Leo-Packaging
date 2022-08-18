@@ -40,7 +40,7 @@ const Wrapper = styled.div`
     left: 0;
     height: 100%;
     width: 100%;
-    opacity: 0.5;
+    opacity: 0.4;
     z-index: 1;
   }
   .video {
@@ -96,8 +96,11 @@ const Wrapper = styled.div`
       height: 374px;
     }
     header .container {
-      height: 110px;
+      height: 170px;
     }
+    header .overlay {
+    height: 350px;
+  }
     h1 {
       font-size: 26px;
     }

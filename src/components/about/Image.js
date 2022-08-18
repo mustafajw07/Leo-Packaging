@@ -9,7 +9,6 @@ function Image() {
         <div className="overlay"></div>
         <Navbar />
         <img src={main} className="pic" alt="main" />
-
         <div className="container">
           <div className="video">
             <div>

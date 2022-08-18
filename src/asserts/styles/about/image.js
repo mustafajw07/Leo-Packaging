@@ -40,7 +40,7 @@ const Wrapper = styled.div`
     width: 100%;
     z-index: 1;
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.4;
   }
   .video {
     display: flex;
@@ -84,6 +84,7 @@ const Wrapper = styled.div`
                 transform: translate3d(0, 0, 0);
             }
         }  
+
   @media (max-width: 768px) {
     header img {
       height: 200px;
@@ -98,22 +99,11 @@ const Wrapper = styled.div`
         min-height: auto;
         height: 374px;
       }
+  header .overlay {
+    height: 350px;
+  }
       header .container {
-        height: 110px;
-      }
-
-      header {
-        height: 44vh;
-        overflow: inherit;
-        min-height: auto;
-      }
-      header .pic {
-        top: 50%;
-        min-height: auto;
-        height: 374px;
-      }
-      header .container {
-        height: 110px;
+        height: 140px;
       }
       p {
         font-size: 20px;
