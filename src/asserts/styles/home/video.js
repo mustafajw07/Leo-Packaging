@@ -6,7 +6,7 @@ const Wrapper = styled.main`
     height: 75vh;
     min-height: 25rem;
     width: 100%;
-    overflow: hidden;
+    overflow: inherit;
   }
 
   header video {
