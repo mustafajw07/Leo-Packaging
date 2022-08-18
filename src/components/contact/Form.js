@@ -15,9 +15,9 @@ function Form() {
             </div>
             <div className="form">
               <form>
-              <input placeholder="Name" type="text" class="input" required="" />
-              <input placeholder="Email" type="text" class="input" required="" />
-              <input placeholder="Phone" type="text" class="input" required="" />
+              <input placeholder="Name" type="text" className="input" required="" />
+              <input placeholder="Email" type="text" className="input" required="" />
+              <input placeholder="Phone" type="text" className="input" required="" />
               {/* <br /> */}
                 {/* <button><a href="#" className="btn-flip" data-back="Submit" data-front="Ready?"></a></button> */}
               </form>
