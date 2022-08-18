@@ -18,9 +18,9 @@ function Form() {
               <input placeholder="Name" type="text" className="input" required="" />
               <input placeholder="Email" type="text" className="input" required="" />
               <input placeholder="Phone" type="text" className="input" required="" />
-              {/* <br /> */}
-                {/* <button><a href="#" className="btn-flip" data-back="Submit" data-front="Ready?"></a></button> */}
+              <textarea placeholder="Message" type="text" className="input" required="" />
               </form>
+                {/* <button><a href="#" className="btn-flip" data-back="Submit" data-front="Ready?"></a></button> */}
             </div>
           </div>
         </div>

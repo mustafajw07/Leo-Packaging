@@ -38,7 +38,6 @@ const Wrapper = styled.main`
     left: 0;
     height: 100%;
     width: 100%;
-    opacity: 0.5;
     z-index: 1;
   }
   .video {
@@ -48,7 +47,7 @@ const Wrapper = styled.main`
     align-items: center;
   }
   .video div {
-    color: white;
+    color: #F9F5F2;
     width: 100%;
   }
   .video div {

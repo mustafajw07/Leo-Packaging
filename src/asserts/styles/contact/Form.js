@@ -9,6 +9,7 @@ const Wrapper = styled.section`
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    color: #2D2D2D;
 }
 .row{
   display: flex;
@@ -135,6 +136,8 @@ p{
   text-decoration: none;
   font-family: "Open Sans";
   text-transform: uppercase;
+ margin: 12px;
+
 }
 .btn-flip:hover:after {
   opacity: 1;

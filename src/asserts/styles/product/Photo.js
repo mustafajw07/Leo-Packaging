@@ -50,7 +50,7 @@ const Wrapper = styled.div`
     align-items: center;
   }
   .video div {
-    color: white;
+    color: #F9F5F2;
     width: 100%;
   }
   .video div {
@@ -67,9 +67,6 @@ const Wrapper = styled.div`
       height: 44vh;
       overflow: inherit;
       min-height: auto;
-    }
-    header .overlay {
-      background-color: transparent;
     }
     header .pic {
       top: 50%;

@@ -7,10 +7,8 @@ import Main from "../components/contact/Main";
 function Contact() {
   return <>
   <Navigator />
-  <div className="bg">
   <Main />
   <Form />
-  </div>
   <Footer />
   </>;
 }

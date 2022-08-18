@@ -38,9 +38,9 @@ const Wrapper = styled.div`
     left: 0;
     height: 100%;
     width: 100%;
+    z-index: 1;
     background-color: black;
     opacity: 0.5;
-    z-index: 1;
   }
   .video {
     display: flex;
@@ -49,7 +49,7 @@ const Wrapper = styled.div`
     align-items: center;
   }
   .video div {
-    color: white;
+    color: #F9F5F2;
     width: 100%;
   }
   .video div {
@@ -66,9 +66,6 @@ const Wrapper = styled.div`
     header img {
       height: 200px;
     }
-    header .container {
-      height: 150px;
-
       header {
         height: 44vh;
         overflow: inherit;
@@ -87,9 +84,6 @@ const Wrapper = styled.div`
         height: 44vh;
         overflow: inherit;
         min-height: auto;
-      }
-      header .overlay {
-        background-color: transparent;
       }
       header .pic {
         top: 50%;
@@ -107,6 +101,5 @@ const Wrapper = styled.div`
         font-weight: bold;
       }
     }
-  }
 `;
 export default Wrapper;
