@@ -77,7 +77,6 @@ const Wrapper = styled.div`
       height: 374px;
     }
     header .container {
-      padding: 80px;
       height: 110px;
     }
     h1 {
