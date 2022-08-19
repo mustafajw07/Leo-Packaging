@@ -185,18 +185,24 @@ button {
 }
 
 @media (max-width: 768px){
-    .form {
-    max-width: 370px;
-    height: auto;
-    background-color: #2D2D2D;
-    opacity: 0.8;
+  .row{
+    flex-direction: column;
   }
-  textarea {
+  .address{
     width: 100%;
-  height: 7rem;
-  padding: 0.375rem 0.75rem;
-  border-radius: 5px;
- }
+    margin-left: 0;
+  }
+  .form{
+    width: 100%;
+    margin-right: 0;
+  }
+  .input{
+    width: 90%;
+  }
+  .address p{
+    font-size: 27px;
+    padding-left: 15px;
+  }
 }
 `
 

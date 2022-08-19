@@ -48,6 +48,21 @@ const Wrapper = styled.section`
                 transform: translate3d(0, 0, 0);
             }
         }  
+
+@media (max-width: 768px) {
+    .page-title{
+        display: block;
+        margin-top: 45px;
+        margin-bottom: 30px;
+        font-size: 35px;
+    }
+    .para{
+        font-size: 37px;
+    }
+    .title{
+        margin: 0 0 100px;
+    }
+}
 `
 
 export default Wrapper;
