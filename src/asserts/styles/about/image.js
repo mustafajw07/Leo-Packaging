@@ -40,7 +40,7 @@ const Wrapper = styled.div`
     width: 100%;
     z-index: 1;
     background-color: black;
-    opacity: 0.4;
+    opacity: 0.3;
   }
   .video {
     display: flex;
@@ -58,13 +58,13 @@ const Wrapper = styled.div`
   p {
     font-size: 30px;
     visibility: visible;
-    animation: fadeInUp ease 5s;
+    animation: fadeInUp ease 3s;
   }
   h1 {
     font-size: 50px;
     font-weight: bold;
     visibility: visible;
-    animation: fadeInUp ease 5s;
+    animation: fadeInUp ease 3s;
   }
   @keyframes fadeInAnimation {
             0% {
@@ -96,12 +96,11 @@ const Wrapper = styled.div`
       }
       header .pic {
         top: 50%;
-        min-height: auto;
-        height: 374px;
+        height: inherit;
       }
-  header .overlay {
-    height: 350px;
-  }
+      header .overlay{
+        height: inherit;
+    }
       header .container {
         height: 140px;
       }

@@ -34,13 +34,12 @@ const Wrapper = styled.div`
 
   header .overlay {
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.3;
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    opacity: 0.4;
     z-index: 1;
   }
   .video {
@@ -59,12 +58,12 @@ const Wrapper = styled.div`
   h1 {
     font-size: 50px;
     visibility: visible;
-    animation: fadeInUp ease 5s;
+    animation: fadeInUp ease 3s;
   }
   p {
     font-size: 25px;
     visibility: visible;
-    animation: fadeInUp ease 5s;
+    animation: fadeInUp ease 3s;
   }
   @keyframes fadeInAnimation {
             0% {
@@ -91,16 +90,15 @@ const Wrapper = styled.div`
       min-height: auto;
     }
     header .pic {
-      top: 50%;
-      min-height: auto;
-      height: 374px;
+        top: 50%;
+        height: inherit;
+      }
+      header .overlay{
+        height: inherit;
     }
-    header .container {
-      height: 170px;
-    }
-    header .overlay {
-    height: 350px;
-  }
+      header .container {
+        height: 160px;
+      }
     h1 {
       font-size: 26px;
     }
