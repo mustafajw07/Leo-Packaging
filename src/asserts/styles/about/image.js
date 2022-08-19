@@ -102,7 +102,7 @@ const Wrapper = styled.div`
         height: inherit;
     }
       header .container {
-        height: 140px;
+        height: 150px;
       }
       p {
         font-size: 20px;
