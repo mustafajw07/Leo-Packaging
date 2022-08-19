@@ -134,7 +134,7 @@ const Wrapper = styled.main`
 
     .navbar .menu-items li {
       margin-bottom: 1.8rem;
-      font-size: 1.1rem;
+      font-size: 1.6rem;
       font-weight: 500;
     }
 
