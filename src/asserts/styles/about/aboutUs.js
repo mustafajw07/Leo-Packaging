@@ -10,7 +10,12 @@ const Wrapper = styled.div`
     text-align: center;
   }
   .paragraph {
+    font-size: 25px;
+    text-align: center;
     padding: 50px;
+  }
+  .para {
+    padding-top: 30px;
   }
 
   .size {
