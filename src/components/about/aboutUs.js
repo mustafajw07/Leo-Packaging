@@ -14,7 +14,7 @@ function aboutUs() {
           <br />
           <p className="para">
             With experience of 25+ years within the printing and packaging
-            industry,AL-ZAMAN Packaging combines its technical expertise <br />{" "}
+            industry,AL-ZAMAN Packaging combines its technical expertise <br />
             with market insights to deliver customized solutions that exceed
             customer expectations
           </p>
