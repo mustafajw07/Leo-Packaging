@@ -16,8 +16,9 @@ const Wrapper = styled.div`
     object-fit: cover;
     transition: all 0.3s ease;
   }
-  .item:hover {
-    transform: scale(1.2);
+   .item:hover {
+    background-color: white;
+    opacity: 0.2;
   }
   p {
     font-size: 30px;
