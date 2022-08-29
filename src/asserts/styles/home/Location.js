@@ -3,31 +3,34 @@ import styled from "styled-components";
 const Wrapper = styled.main`
   .head {
     padding-top: 50px;
-    font-size: 50px;
-    text-align: center;
+    font-size: 101px;
+    padding-left: 150px;
+    text-align: justify;
   }
   .container {
-    padding-bottom: 180px;
-    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-left: 0;
     display: flex;
     flex-direction: row;
   }
-  .container .para {
+  .para {
+    width: 40%;
+    text-align: center;
     padding-top: 200px;
     font-weight: lighter;
-    padding-left: 50px;
-    font-size: 40px;
+    font-size: 25px;
   }
   .text {
-    padding-top: 50px;
-    padding-left: 100px;
-  }
-  .smallhead {
-    padding-left: 80px;
+    font-size: 50px;
     padding-top: 30px;
   }
+
   .company {
-    padding-left: 50px;
+    font-size: 30px;
+  }
+  .image {
+    width: 60%;
+    height: 783px;
   }
   @media (max-width: 750px) {
     .head {

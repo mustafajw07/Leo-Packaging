@@ -7,11 +7,11 @@ function aboutUs() {
       <div className="container">
         <div className="paragraph">
           <h1>ABOUT US</h1>
-          <br />
-          Lulu Packaging is one among the most important producers of top
-          quality folding cartons working with <br /> customers across industry
-          segments.
-          <br />
+          <p className="para">
+            Lulu Packaging is one among the most important producers of top
+            quality folding cartons working with customers across industry
+            segments.
+          </p>
           <p className="para">
             With experience of 25+ years within the printing and packaging
             industry,AL-ZAMAN Packaging combines its technical expertise <br />

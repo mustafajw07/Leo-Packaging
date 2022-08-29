@@ -2,11 +2,11 @@ import AboutCompany from "../aboutCompany";
 import Company from "../../about/company";
 
 function companySection() {
-  return(
+  return (
     <>
-    <AboutCompany />
-    <h1>Company that trust us</h1>
-    <Company />
+      <AboutCompany />
+      <h1 className="heading">Company that trust us</h1>
+      <Company />
     </>
   );
 }

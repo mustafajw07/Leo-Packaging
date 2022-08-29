@@ -10,7 +10,7 @@ function Home() {
       <Video />
       <CompanySection />
       <Service />
-      {/* <Location /> */}
+      <Location />
       <Footer />
     </>
   );

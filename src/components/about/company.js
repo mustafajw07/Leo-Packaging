@@ -7,7 +7,6 @@ function company() {
       <div className="container">
         <div className="name">
           <div className="smallcontainer">
-            <h2 className="heading">COMPANY THAT TRUST US</h2>
             <div className="bg">
               <div id="brand-logo" className="brand-logo">
                 <div

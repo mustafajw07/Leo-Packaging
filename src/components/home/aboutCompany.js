@@ -14,10 +14,19 @@ function aboutCompany() {
         </div>
         <span className="text">
           <h2>ABOUT US</h2>
-          <p>Providing Best Business Solution For Growing Your Business.</p>
-          AL-ZAMAN Packaging is one among the most important producers of top
-          quality folding cartons working with customers across industry
-          segments.
+          <p className="subtitle">
+            Providing Best Business Solution For Growing Your Business.
+          </p>
+          <p className="para">
+            AL-ZAMAN Packaging is one among the most important producers of top
+            quality folding cartons working with customers across industry
+            segments.
+          </p>
+          <button
+            className="btn-flip"
+            data-back="Read More"
+            data-front="Read More"
+          ></button>
         </span>
       </div>
     </Wrapper>
