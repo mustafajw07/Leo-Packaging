@@ -89,17 +89,40 @@ const Wrapper = styled.main`
     cursor: pointer;
     outline: inherit;
   }
-  @media (max-width: 720px) {
+  @media (max-width: 768px) {
     .maincontainer {
       display: flex;
-      flex-direction: column;
+      flex-direction: column-reverse;
       padding-top: 10px;
       justify-content: center;
+      align-items: center;
       background-color: #bf8f4e;
     }
+    .container {
+      margin-right: 350px;
+    }
     .img {
-      padding-left: 50px;
+      padding-top: 50px;
       height: 300px;
+      width: 300px;
+      align-items: center;
+    }
+
+    h2 {
+      font-size: 40px;
+      padding-bottom: 10px;
+    }
+    .subtitle {
+      padding-bottom: 20px;
+      font-size: 20px;
+      width: 60%;
+    }
+    .para {
+      font-size: 18px;
+      width: 85%;
+    }
+    button {
+      padding-bottom: 20px;
     }
   }
 `;

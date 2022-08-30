@@ -32,40 +32,38 @@ const Wrapper = styled.main`
     width: 60%;
     height: 783px;
   }
-  @media (max-width: 750px) {
+  @media (max-width: 768px) {
     .head {
+      padding-left: 90px;
       padding-top: 50px;
       font-size: 60px;
-      text-align: center;
     }
     .container {
-      padding-bottom: 50px;
+      padding-top: 20px;
       display: flex;
       flex-direction: column;
     }
-    .container .para {
-      padding-top: 50px;
-      font-weight: lighter;
-      padding-left: 0px;
-      font-size: 25px;
+    .para {
+      width: 100%;
+      padding-left: 30px;
+      padding-top: 10px;
+      font-size: 20px;
     }
     .text {
-      padding-top: 50px;
-      padding-left: 0px;
-      font-size: 40px;
-    }
-    .smallhead {
-      padding-left: 0px;
+      text-align: justify;
+      font-size: 50px;
       padding-top: 30px;
-      font-size: 40px;
     }
     .company {
-      padding-left: 50px;
-      font-size: 40px;
+      padding-right: 90px;
+      text-align: justify;
+      font-size: 30px;
     }
+
     .image {
-      width: 320px;
-      height: 400px;
+      padding: 20px;
+      width: 100%;
+      height: 500px;
     }
   }
 `;

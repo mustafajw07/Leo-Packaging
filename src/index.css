@@ -33,3 +33,12 @@ code {
   text-transform: uppercase;
   letter-spacing: 0.6em;
 }
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.6em;
+  }
+}

@@ -1,6 +1,5 @@
 import React from "react";
 import Wrapper from "../../asserts/styles/home/service";
-// import service1 from "../asserts/images/service1.png";
 
 function Service() {
   return (

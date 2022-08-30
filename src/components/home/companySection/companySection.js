@@ -5,7 +5,7 @@ function companySection() {
   return (
     <>
       <AboutCompany />
-      <h1 className="heading">Company that trust us</h1>
+      <h1 className="heading">Companies that trust us</h1>
       <Company />
     </>
   );
