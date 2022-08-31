@@ -13,7 +13,9 @@ const Wrapper = styled.main`
     justify-content: center;
   }
   .service1 {
-    margin-left: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 110px;
     height: 104px;
   }
@@ -40,19 +42,21 @@ const Wrapper = styled.main`
       justify-content: center;
     }
     .service1 {
-      margin-left: 12px;
-      width: 110px;
-      height: 104px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 70px;
+      height: 68px;
     }
     .head {
       text-align: center;
-      font-size: 25px;
+      font-size: 30px;
       padding-top: 10px;
       color: white;
     }
     .info {
       text-align: center;
-      font-size: 20px;
+      font-size: 15px;
       padding-top: 10px;
       color: white;
     }

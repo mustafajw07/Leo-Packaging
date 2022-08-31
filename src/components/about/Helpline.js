@@ -8,7 +8,7 @@ function Helpline() {
           <div className="container1">
             <img
               className="service1"
-              src="https://cdn-icons.flaticon.com/png/128/2900/premium/2900216.png?token=exp=1661169141~hmac=79d7bc091f14f5d149c71bcef60eb612"
+              src="https://cdn-icons-png.flaticon.com/128/1067/1067555.png"
               alt=""
             ></img>
             <p className="head">PACKAGING</p>

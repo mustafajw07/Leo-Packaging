@@ -33,7 +33,7 @@ const Wrapper = styled.div`
     justify-content: space-evenly;
   }
 
-  @media (max-width: 720px) {
+  @media (max-width: 768px) {
     .smallcontainer {
       display: grid;
       gap: 10px;

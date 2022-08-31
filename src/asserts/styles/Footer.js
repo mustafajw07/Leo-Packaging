@@ -41,7 +41,7 @@ const Wrapper = styled.footer`
     margin: 0% 1%;
   }
 
-  @media (max-width: 720px) {
+  @media (max-width: 768px) {
     .footer {
       text-align: left;
       padding: 5%;

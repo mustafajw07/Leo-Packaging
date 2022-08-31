@@ -10,31 +10,41 @@ const Wrapper = styled.div`
     text-align: center;
   }
   .paragraph {
-    font-size: 25px;
+    font-size: 45px;
     text-align: center;
-    padding: 50px;
   }
   .para {
+    margin-left: 290px;
+    text-align: center;
+    width: 43%;
+    font-size: 20px;
     padding-top: 30px;
   }
 
   .size {
+    width: 30%;
     height: 700px;
   }
-  @media (max-width: 720px) {
+  @media (max-width: 768px) {
     .container {
       display: flex;
       flex-direction: column;
-      justify-content: end;
     }
     h1 {
+      font-size: 45px;
       text-align: center;
-    }
-    .paragraph {
-      padding: 50px;
+      padding-top: 10px;
     }
 
+    .para {
+      margin-left: 40px;
+      width: 75%;
+      font-size: 20px;
+      padding-top: 10px;
+      padding-bottom: 30px;
+    }
     .size {
+      width: 100%;
       height: 400px;
     }
   }

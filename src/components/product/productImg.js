@@ -4,25 +4,16 @@ import pic1 from "../product/assets/p1.png";
 import pic2 from "../product/assets/p2.png";
 
 function productImg() {
-  function show() {
-    // document.getElementById("image").style = "";
-  }
   return (
     <Wrapper>
       <div className="box">
         <div>
-          <img
-            id="image"
-            className="item"
-            src={pic1}
-            alt="Example "
-            onClick={show}
-          />
+          <img className="item" src={pic1} alt="Example " />
           <p>Corrugated Roll</p>
         </div>
         <div>
           <img className="item" src={pic2} alt="Example " />
-          <p>Corrugated Roll</p>
+          <p>Paper Packaging Cartons</p>
         </div>
         <div>
           <img className="item" src={pic1} alt="Example " />
