@@ -23,8 +23,32 @@ const Wrapper = styled.div`
 
   .size {
     width: 30%;
-    height: 700px;
+    height: 760px;
   }
+  @media (max-width: 1200px) {
+    .container {
+      display: flex;
+      flex-direction: row;
+    }
+    h1 {
+      font-size: 45px;
+      text-align: center;
+      padding-top: 10px;
+    }
+
+    .para {
+      margin-left: 40px;
+      width: 75%;
+      font-size: 20px;
+      padding-top: 10px;
+      padding-bottom: 30px;
+    }
+    .size {
+      width: 100%;
+      height: 700px;
+    }
+  }
+
   @media (max-width: 768px) {
     .container {
       display: flex;
@@ -38,7 +62,7 @@ const Wrapper = styled.div`
 
     .para {
       margin-left: 40px;
-      width: 75%;
+
       font-size: 20px;
       padding-top: 10px;
       padding-bottom: 30px;

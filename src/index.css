@@ -32,11 +32,12 @@ code {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.6em;
+  background-color: #bf8f4e;
 }
 
 @media (max-width: 768px) {
   .heading {
-    font-size: 29px;
+    font-size: 25px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.6em;

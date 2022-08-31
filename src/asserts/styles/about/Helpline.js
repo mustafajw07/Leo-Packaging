@@ -9,7 +9,7 @@ const Wrapper = styled.div`
   }
 
   .container1 {
-    padding: 120px;
+    padding: 70px;
   }
   .service1 {
     display: block;
@@ -29,6 +29,11 @@ const Wrapper = styled.div`
     font-size: 25px;
     padding-top: 20px;
     color: #2d2d2d;
+  }
+  @media (max-width: 1200px) {
+    .container1 {
+      padding: 50px;
+    }
   }
   @media (max-width: 768px) {
     .container {

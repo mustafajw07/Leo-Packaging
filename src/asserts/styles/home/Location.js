@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Wrapper = styled.main`
   .head {
     padding-top: 50px;
-    font-size: 101px;
+    font-size: 95px;
     padding-left: 150px;
     text-align: justify;
   }
@@ -16,7 +16,7 @@ const Wrapper = styled.main`
   .para {
     width: 40%;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 100px;
     font-weight: lighter;
     font-size: 25px;
   }
@@ -32,6 +32,7 @@ const Wrapper = styled.main`
     width: 60%;
     height: 783px;
   }
+
   @media (max-width: 768px) {
     .head {
       padding-left: 90px;

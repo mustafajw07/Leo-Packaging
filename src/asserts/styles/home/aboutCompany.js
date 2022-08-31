@@ -89,6 +89,24 @@ const Wrapper = styled.main`
     cursor: pointer;
     outline: inherit;
   }
+
+  @media (max-width: 1200px) {
+    .img {
+      margin-left: 80px;
+      width: 433px;
+      height: 433px;
+      align-items: center;
+    }
+    .subtitle {
+      padding-bottom: 20px;
+      font-size: 20px;
+      width: 90%;
+    }
+    .para {
+      font-size: 18px;
+      width: 80%;
+    }
+  }
   @media (max-width: 768px) {
     .maincontainer {
       display: flex;
@@ -102,10 +120,10 @@ const Wrapper = styled.main`
       margin-right: 350px;
     }
     .img {
+      margin-left: 345px;
       padding-top: 50px;
       height: 300px;
       width: 300px;
-      align-items: center;
     }
 
     h2 {

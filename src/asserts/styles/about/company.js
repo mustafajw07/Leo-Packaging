@@ -33,7 +33,15 @@ const Wrapper = styled.div`
     justify-content: space-evenly;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
+    .smallcontainer {
+      display: grid;
+      background-color: #bf8f4e;
+      padding: 0px;
+    }
+  }
+
+  @media (max-width: 1048px) {
     .smallcontainer {
       display: grid;
       gap: 10px;
