@@ -96,8 +96,8 @@ const Wrapper = styled.main`
       font-size: 18px;
       width: 85%;
     }
-    button {
-      padding-bottom: 20px;
+    .btn {
+      margin: 35px 2px;
     }
   }
 `;
