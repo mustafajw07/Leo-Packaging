@@ -22,11 +22,9 @@ function aboutCompany() {
             quality folding cartons working with customers across industry
             segments.
           </p>
-          <button
-            className="btn-flip"
-            data-back="Read More"
-            data-front="Read More"
-          ></button>
+          <a href="/about">
+            <button className="btn">Read More</button>
+          </a>
         </span>
       </div>
     </Wrapper>
