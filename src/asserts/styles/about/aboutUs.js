@@ -8,6 +8,7 @@ const Wrapper = styled.div`
   }
   h1 {
     text-align: center;
+    margin-top: 20px;
   }
   .paragraph {
     font-size: 45px;
@@ -16,7 +17,7 @@ const Wrapper = styled.div`
   .para {
     margin-left: 290px;
     text-align: center;
-    width: 43%;
+    width: 49%;
     font-size: 20px;
     padding-top: 30px;
   }

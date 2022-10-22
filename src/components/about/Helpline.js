@@ -8,7 +8,7 @@ function Helpline() {
           <div className="container1">
             <img
               className="service1"
-              src="https://cdn-icons-png.flaticon.com/128/1067/1067555.png"
+              src="https://cdn-icons-png.flaticon.com/512/604/604540.png"
               alt=""
             ></img>
             <p className="head">PACKAGING</p>
@@ -20,7 +20,7 @@ function Helpline() {
           <div className="container1">
             <img
               className="service1"
-              src="https://cdn-icons-png.flaticon.com/128/2111/2111774.png"
+              src="https://cdn-icons-png.flaticon.com/512/1383/1383269.png"
               alt=""
             ></img>
             <p className="head">CONSULTATION</p>
@@ -32,7 +32,7 @@ function Helpline() {
           <div className="container1">
             <img
               className="service1"
-              src="https://cdn-icons-png.flaticon.com/128/950/950299.png"
+              src="https://cdn-icons-png.flaticon.com/512/2597/2597476.png"
               alt=""
             ></img>
             <p className="head">SERVICE</p>

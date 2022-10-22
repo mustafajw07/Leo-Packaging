@@ -6,7 +6,7 @@ const Wrapper = styled.main`
     flex-direction: row;
     padding-top: 200px;
     justify-content: center;
-    background-color: #bf8f4e;
+    background-color: #;
   }
 
   .img {

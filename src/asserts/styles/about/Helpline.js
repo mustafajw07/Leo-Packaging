@@ -5,7 +5,7 @@ const Wrapper = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: #f9f5f2;
+    background-color: #2d2d2d;
   }
 
   .container1 {
@@ -17,18 +17,19 @@ const Wrapper = styled.div`
     margin-right: auto;
     width: 110px;
     height: 104px;
+    color: #f9f5f2;
   }
   .head {
     text-align: center;
     font-size: 35px;
     padding-top: 20px;
-    color: #2d2d2d;
+    color: #f9f5f2;
   }
   .info {
     text-align: center;
     font-size: 25px;
     padding-top: 20px;
-    color: #2d2d2d;
+    color: #f9f5f2;
   }
   @media (max-width: 1200px) {
     .container1 {
