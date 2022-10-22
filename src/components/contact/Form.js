@@ -1,4 +1,5 @@
 import Wrapper from "../../asserts/styles/contact/Form";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 
 function Form() {
@@ -8,10 +9,10 @@ function Form() {
         <div className="container">
           <div className="row">
             <div className="address">
-              <p><i className="fa-solid fa-location-dot"></i>Address</p>
-              <p><i className="fa-solid fa-phone"></i>+971 528676222</p>
-              <p><i className="fa-brands fa-whatsapp"></i>+971 528676222</p>
-              <p><i className="fa-solid fa-envelope"></i>moiz@alzamanpacks.com</p>
+              <p><i className="bi bi-house-door"></i>Address</p>
+              <p><i className="bi bi-telephone-inbound"></i>+971 528676222</p>
+              <p><i className="bi bi-whatsapp"></i>+971 528676222</p>
+              <p><i className="bi bi-envelope"></i>moiz@alzamanpacks.com</p>
             </div>
             <div className="form">
               <form>
