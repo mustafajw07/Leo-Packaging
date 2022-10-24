@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 const Wrapper = styled.main`
+
   .container-fluid {
-    background: white;
-    margin-top: 8%;
-    border: 90px solid white;
+    background: #bf8f4e;
+    margin-top: 7%;
+    border: 90px solid #bf8f4e;
   }
   .container {
     margin-left: 15%;
