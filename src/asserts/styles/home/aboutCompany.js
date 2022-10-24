@@ -8,7 +8,7 @@ const Wrapper = styled.main`
     border: 90px solid #bf8f4e;
   }
   .container {
-    margin-left: 15%; 
+    margin-left: 13%; 
     height:432px;
     width:980px;
     background: #323237;
