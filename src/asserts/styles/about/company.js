@@ -7,6 +7,12 @@ const Wrapper = styled.div`
   .name {
     background-color: #bf8f4e;
   }
+  .head {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+    letter-spacing: 0.6em;
+  }
 
   .smallcontainer {
     display: grid;
@@ -50,7 +56,6 @@ const Wrapper = styled.div`
     }
     .heading {
       font-size: 20px;
-
       text-align: center;
       letter-spacing: 0.2em;
       font-weight: 600;
@@ -70,6 +75,14 @@ const Wrapper = styled.div`
       align-items: center;
     }
     .logo {
+    }
+  }
+  @media (max-width: 768px) {
+    .head {
+      text-align: center;
+      padding-top: 30px;
+      font-size: 30px;
+      letter-spacing: 0.6em;
     }
   }
 `;
