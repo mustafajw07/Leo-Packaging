@@ -23,6 +23,13 @@ function aboutCompany() {
               top quality folding cartons working with customers across industry
               segments.
             </p>
+            <a href="/contact">
+              <button
+                className="btn-flip"
+                data-back="Submit"
+                data-front="Ready?"
+              ></button>
+            </a>
           </span>
         </div>
       </div>

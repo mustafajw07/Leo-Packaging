@@ -6,7 +6,6 @@ const Wrapper = styled.div`
     flex-direction: row;
     justify-content: space-evenly;
     background-color: #2d2d2d;
-    margin-bottom: 10%;
   }
 
   .container1 {
