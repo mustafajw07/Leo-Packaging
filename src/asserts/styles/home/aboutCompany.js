@@ -8,8 +8,9 @@ const Wrapper = styled.main`
     border: 90px solid #bf8f4e;
   }
   .container {
-    margin-left: 15%;
-    width: 70%;
+    margin-left: 15%; 
+    height:432px;
+    width:980px;
     background: #323237;
     display: flex;
     flex-direction: row;
@@ -37,62 +38,26 @@ const Wrapper = styled.main`
     opacity: 1;
     outline: 0;
     color: #fff;
-    line-height: 40px;
+    background:#bf8f4e;
     position: relative;
     text-align: center;
-    letter-spacing: 1px;
     display: inline-block;
     text-decoration: none;
-    font-size:20px;
-    text-transform: uppercase;
-   margin: 10px;
-  
+    font-size:15px;
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin: 10px;
+    border:1px solid #bf8f4e;
   }
-  .btn-flip:hover:after {
-    opacity: 1;
-    transform: translateY(0) rotateX(0);
-  }
-  .btn-flip:hover:before {
-    opacity: 0;
-    transform: translateY(50%) rotateX(90deg);
-  }
-  .btn-flip:after {
-    top: 0;
-    left: 0;
-    opacity: 0;
-    width: 100%;
-    color: white;
-    display: block;
-    transition: 0.5s;
-    position: absolute;
-    background: #bf8f4e;
-    content: attr(data-back);
-    transform: translateY(-50%) rotateX(90deg);
-  }
-  .btn-flip:before {
-    top: 0;
-    left: 0;
-    opacity: 1;
-    color: black;
-    display: block;
-    padding: 0 30px;
-    line-height: 40px;
-    transition: 0.5s;
-    position: relative;
-    // background: #323237;
+  .btn-flip:hover{
+    border:1px solid white;
+    color:#bf8f4e;
     background:white;
-    content: attr(data-front);
-    transform: translateY(0) rotateX(0);
   }
-  button {
-    background: none;
-    color: inherit;
-    border: none;
-    padding: 0;
-    font: inherit;
-    cursor: pointer;
-    outline: inherit;
-  }
+
+ 
   
 
   @media (max-width: 768px) {

@@ -8,7 +8,8 @@ const Wrapper = styled.div`
   }
   h1 {
     text-align: center;
-    margin-top: 20px;
+    // margin-top: 20px;
+    margin-top: 15%;
   }
   .paragraph {
     font-size: 45px;
