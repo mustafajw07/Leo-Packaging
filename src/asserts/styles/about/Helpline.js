@@ -41,7 +41,7 @@ const Wrapper = styled.div`
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
-      background-color: #f9f5f2;
+      background-color: #2d2d2d;
     }
     .service1 {
       display: block;
@@ -54,7 +54,7 @@ const Wrapper = styled.div`
       text-align: center;
       font-size: 20px;
       padding-top: 20px;
-      color: #2d2d2d;
+      color: #f9f5f2s;
     }
   }
 `;

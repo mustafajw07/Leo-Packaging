@@ -8,7 +8,6 @@ const Wrapper = styled.div`
   }
   h1 {
     text-align: center;
-    // margin-top: 20px;
     margin-top: 15%;
   }
   .paragraph {
@@ -33,7 +32,7 @@ const Wrapper = styled.div`
       flex-direction: row;
     }
     h1 {
-      font-size: 45px;
+      font-size: 65px;
       text-align: center;
       padding-top: 10px;
     }
@@ -51,15 +50,16 @@ const Wrapper = styled.div`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     .container {
       display: flex;
       flex-direction: column;
     }
     h1 {
-      font-size: 45px;
-      text-align: center;
+      font-size: 65px;
+      // text-align: center;
       padding-top: 10px;
+      margin-right: 30px;
     }
 
     .para {

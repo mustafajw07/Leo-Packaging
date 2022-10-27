@@ -51,9 +51,10 @@ const Wrapper = styled.main`
       font-size: 20px;
     }
     .text {
-      text-align: justify;
+      text-align: center;
       font-size: 50px;
       padding-top: 30px;
+      margin-right: 70px;
     }
     .company {
       padding-right: 90px;
