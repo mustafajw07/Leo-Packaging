@@ -13,8 +13,8 @@ function Service() {
           ></img>
           <p className="head">PLANNING & STRAGTEGY</p>
           <p className="info">
-            AL-Zaman offers a wide range of customized packaging solutions for
-            different types of transport modes.
+            Leo Paper & Packaging offers a wide range of customized packaging
+            solutions for different types of transport modes.
           </p>
         </div>
         <div className="container1">
@@ -25,8 +25,8 @@ function Service() {
           ></img>
           <p className="head">CUSTOMER HAPPINESS</p>
           <p className="info">
-            AL-Zaman offers services at offers that make our customers happy and
-            trust us for all their packaging solutions.
+            Leo Paper & Packaging offers services at offers that make our
+            customers happy and trust us for all their packaging solutions.
           </p>
         </div>
         <div className="container1">
@@ -37,8 +37,9 @@ function Service() {
           ></img>
           <p className="head">WE DELIVER QUALITY</p>
           <p className="info">
-            AL-Zaman delivers a top quality product. All the delivers go through
-            multiple quality check before reaching the customer.
+            Leo Paper & Packaging delivers a top quality product. All the
+            delivers go through multiple quality check before reaching the
+            customer.
           </p>
         </div>
       </div>

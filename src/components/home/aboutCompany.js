@@ -20,7 +20,7 @@ function aboutCompany() {
               Providing Best Business Solution For Growing your Business.
             </p>
             <p className="smalltxt">
-              AL-ZAMAN Packaging is one among the most important producers of
+              Leo Paper & Packaging is one among the most important producers of
               top quality folding cartons working with customers across industry
               segments.
             </p>

@@ -12,7 +12,7 @@ const Wrapper = styled.main`
     background: #323237;
     display: flex;
     flex-direction: row;
-    margin: 0  auto;
+    margin: 0 auto;
   }
   .txt {
     color: white;

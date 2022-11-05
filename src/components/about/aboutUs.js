@@ -9,15 +9,15 @@ function aboutUs() {
           <h1>ABOUT US</h1>
 
           <p className="para">
-            Al-Zaman Packaging is one among the most important producers of top
-            quality folding cartons working with customers across industry
-            segments.
+            Leo Paper & Packaging Packaging is one among the most important
+            producers of top quality folding cartons working with customers
+            across industry segments.
           </p>
           <p className="para">
             With experience of 25+ years within the printing and packaging
-            industry,AL-ZAMAN Packaging combines its technical expertise with
-            market insights to deliver customized solutions that exceed customer
-            expectations
+            industry,Leo Paper & Packaging Packaging combines its technical
+            expertise with market insights to deliver customized solutions that
+            exceed customer expectations
           </p>
           <p className="para">
             We engage with brand owners early within the development process to
