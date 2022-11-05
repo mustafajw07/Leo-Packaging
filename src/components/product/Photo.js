@@ -13,11 +13,11 @@ function Photo() {
         <div className="container">
           <div className="video">
             <div>
-              <h1>WE BELIEVE IN QUALITY PRODUCT </h1>
+              <h1>Quality Speaks for itself </h1>
               <p>
-                All products that we deliver are gone through many quality
-                checks and then delivered. We want all our customers to be
-                satisfied and trust us for all their packaging solutions.
+                With a customer retention rate of more than 80%, Al Zaman takes
+                pride in being one of the most consistent and quality concious
+                manufacturers of paper related products in UAE
               </p>
             </div>
           </div>

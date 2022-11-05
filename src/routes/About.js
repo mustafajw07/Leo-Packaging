@@ -8,8 +8,8 @@ function About() {
   return (
     <>
       <Image />
-      <Company />
       <AboutUs />
+      <Company />
       <Helpline />
       <Footer />
     </>

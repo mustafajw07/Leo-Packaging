@@ -23,7 +23,7 @@ function Video() {
             <div>
               <p className="top">WE INVEST IN</p>
               <h1>Your Future.</h1>
-              <p>PERFECT PACKAGING SOLUTIONS FOR YOUR BRAND.</p>
+              <p>A one stop solution for all things Paper</p>
             </div>
           </div>
         </div>

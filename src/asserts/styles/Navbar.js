@@ -33,8 +33,8 @@ const Wrapper = styled.main`
   .logo {
     order: 1;
     font-size: 2.3rem;
-    width: 70px;
-    height: 70px;
+    width: 130px;
+    height: 96px;
   }
 
   .menu-items li {

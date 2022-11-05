@@ -4,7 +4,7 @@ const Wrapper = styled.main`
   .container-fluid {
     background: #bf8f4e;
     margin-top: 8%;
-    border: 90px solid #bf8f4e;
+    // border: 90px solid #bf8f4e;
   }
   .container {
     height: 432px;
@@ -12,7 +12,7 @@ const Wrapper = styled.main`
     background: #323237;
     display: flex;
     flex-direction: row;
-    margin: 0  auto;
+    margin: 0 auto;
     position: relative;
     bottom: 130px;
   }
@@ -56,11 +56,11 @@ const Wrapper = styled.main`
     background: white;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 766px) {
     .container-fluid {
       background: #bf8f4e;
       margin-top: 0%;
-      border: 5px solid #bf8f4e;
+      // border: 5px solid #bf8f4e;
     }
     .container {
       margin-left: 0%;
@@ -97,7 +97,7 @@ const Wrapper = styled.main`
     .container-fluid {
       background: #bf8f4e;
       margin-top: 0%;
-      border: 10px solid #bf8f4e;
+      // border: 10px solid #bf8f4e;
     }
     .container {
       margin-left: 10%;
@@ -105,6 +105,7 @@ const Wrapper = styled.main`
       background: #323237;
       display: flex;
       flex-direction: row;
+      bottom: 100px;
     }
     .img {
       height: 300px;
@@ -130,8 +131,8 @@ const Wrapper = styled.main`
   @media (min-width: 821px) and (max-width: 1205px) {
     .container-fluid {
       background: #bf8f4e;
-      margin-top: 15%;
-      border: 10px solid #bf8f4e;
+      margin-top: 8%;
+      // border: 10px solid #bf8f4e;
     }
     .container {
       margin-left: 10%;
@@ -139,6 +140,7 @@ const Wrapper = styled.main`
       background: #323237;
       display: flex;
       flex-direction: row;
+      bottom: 100px;
     }
     .img {
       height: 300px;

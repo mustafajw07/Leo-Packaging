@@ -5,18 +5,18 @@ function Location() {
   return (
     <>
       <Wrapper>
-        <h1 className="head">Serving Worldwide</h1>
+        <h1 className="head">Let's Talk Numbers</h1>
         <div className="container">
           <span className="para">
             With Technology Enabled and Verified
             <br />
             Manufacturing & Supply Chain Partners
-            <h4 className="text"> 500 +</h4>
-            <span className="company">COMPANY SERVED</span>
-            <h4 className="text">4 MILLION +</h4>
-            <span className="company">BOX PRODUCED</span>
-            <h4 className="text">FLYING</h4>
-            <span className="company">ACROSS GLOBE</span>
+            <h4 className="text"> 180+</h4>
+            <span className="company">Satisfied Clients</span>
+            <h4 className="text">13 +</h4>
+            <span className="company">Industries Served</span>
+            <h4 className="text">12+</h4>
+            <span className="company">Countries Covered</span>
           </span>
 
           <img
