@@ -13,8 +13,8 @@ function Helpline() {
             ></img>
             <p className="head">PACKAGING</p>
             <p className="info">
-              AL-ZAMAN offers a good range of customized packaging solutions for
-              various sorts of transport modes.
+              Leo Paper & Packaging offers a good range of customized packaging
+              solutions for various sorts of transport modes.
             </p>
           </div>
           <div className="container1">
@@ -25,8 +25,8 @@ function Helpline() {
             ></img>
             <p className="head">CONSULTATION</p>
             <p className="info">
-              AL-Zaman global network of packaging and logistics engineers give
-              customers global access to high-quality competence.
+              Leo Paper & Packaging global network of packaging and logistics
+              engineers give customers global access to high-quality competence.
             </p>
           </div>
           <div className="container1">
@@ -37,8 +37,9 @@ function Helpline() {
             ></img>
             <p className="head">SERVICE</p>
             <p className="info">
-              AL-Zaman provides a 24/7 support to help its customers solve their
-              packaging issues. It is known for its customer loyalty.
+              Leo Paper & Packaging provides a 24/7 support to help its
+              customers solve their packaging issues. It is known for its
+              customer loyalty.
             </p>
           </div>
         </div>
