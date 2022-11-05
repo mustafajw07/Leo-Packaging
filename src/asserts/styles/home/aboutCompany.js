@@ -13,6 +13,8 @@ const Wrapper = styled.main`
     display: flex;
     flex-direction: row;
     margin: 0  auto;
+    position: relative;
+    bottom: 130px;
   }
   .txt {
     color: white;
