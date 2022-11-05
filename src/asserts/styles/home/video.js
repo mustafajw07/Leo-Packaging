@@ -7,6 +7,7 @@ const Wrapper = styled.main`
     min-height: 25rem;
     width: 100%;
     overflow: inherit;
+    background-color: #BF8F4E;
   }
 
   header video {
@@ -14,11 +15,9 @@ const Wrapper = styled.main`
     top: 50%;
     left: 50%;
     min-width: 100%;
-    min-height: 100%;
     object-fit: cover;
     object-position: 50% 50%;
     width: 100%;
-    height: 767px;
     z-index: 0;
     -ms-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);

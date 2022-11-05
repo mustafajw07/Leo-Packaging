@@ -3,20 +3,16 @@ import styled from "styled-components";
 const Wrapper = styled.main`
   .container-fluid {
     background: #bf8f4e;
-    margin-top: 7%;
+    margin-top: 8%;
     border: 90px solid #bf8f4e;
   }
   .container {
-    margin-left: 13%;
     height: 432px;
     width: 980px;
     background: #323237;
     display: flex;
     flex-direction: row;
-  }
-  .img {
-    align-item: center;
-    // margin-left: 17%;
+    margin: 0  auto;
   }
   .txt {
     color: white;
@@ -49,6 +45,8 @@ const Wrapper = styled.main`
     padding-bottom: 10px;
     margin: 10px;
     border: 1px solid #bf8f4e;
+    transition: 400ms;
+    cursor: pointer;
   }
   .btn-flip:hover {
     border: 1px solid white;
@@ -72,7 +70,6 @@ const Wrapper = styled.main`
     }
     .img {
       margin-left: 26%;
-      align-item: center;
       height: 190px;
       width: 190px;
       margin-top: 10px;
@@ -110,7 +107,6 @@ const Wrapper = styled.main`
     .img {
       height: 300px;
       width: 300px;
-      align-item: center;
       // margin-left: 17%;
     }
     .txt {
@@ -145,7 +141,6 @@ const Wrapper = styled.main`
     .img {
       height: 300px;
       width: 300px;
-      align-item: center;
       // margin-left: 17%;
     }
     .txt {

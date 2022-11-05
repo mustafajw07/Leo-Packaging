@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Wrapper from "../../asserts/styles/home/aboutCompany";
 
 function aboutCompany() {
@@ -23,9 +24,9 @@ function aboutCompany() {
               top quality folding cartons working with customers across industry
               segments.
             </p>
-            <a href="/contact">
+            <Link to="/about">
               <button className="btn-flip">Read More</button>
-            </a>
+            </Link>
           </span>
         </div>
       </div>
