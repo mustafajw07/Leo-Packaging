@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Wrapper = styled.main`
   .container-fluid {
     background: #bf8f4e !important;
-    margin-top: 12%;
+    margin-top: 5%;
     border: 90px solid #bf8f4e;
     // height: 600px;
   }
@@ -58,7 +58,7 @@ const Wrapper = styled.main`
   @media (min-width: 280px) {
     .container-fluid {
       background: #bf8f4e;
-      margin-top: 12% !important;
+      margin-top: 5% !important;
       border: 10px solid #bf8f4e;
       margin-left: -1%;
     }
