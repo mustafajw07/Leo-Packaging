@@ -63,9 +63,7 @@ const Wrapper = styled.div`
     .brand-logo {
       padding-bottom: 30px;
     }
-    .containerlogo {
-    }
-
+    
     .company {
       padding-left: 7px;
       padding-top: 20px;
