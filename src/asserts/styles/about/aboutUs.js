@@ -5,6 +5,7 @@ const Wrapper = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: end;
+    background: #f9f5f2;
   }
   h1 {
     text-align: center;

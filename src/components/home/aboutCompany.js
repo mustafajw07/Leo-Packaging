@@ -8,7 +8,7 @@ function aboutCompany() {
       <div className="container-fluid">
         <div className="container">
           <img
-            className="img"
+            className="img m"
             src="https://static.wixstatic.com/media/3741e09170b346568583b6f222455446.jpg/v1/crop/x_467,y_0,w_1867,h_1867/fill/w_541,h_541,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Cardboard%20Boxes.jpg"
             alt="alt"
             height={432}
@@ -16,13 +16,15 @@ function aboutCompany() {
           />
           <span className="txt">
             ABOUT US
-            <p className="smtxt">
-              Providing Best Business Solution For Growing your Business.
+            <p className="smalltxt">
+              Leo Paper Packaging is one of the leading Paper Core and
+              Corrugated Sheet manufacturers in UAE.
             </p>
             <p className="smalltxt">
-              Leo Paper & Packaging is one among the most important producers of
-              top quality folding cartons working with customers across industry
-              segments.
+              With over 6 years of experience within the packaging industry, Leo
+              Paper Packaging combines its technical expertise with market
+              insights to deliver customized solutions that exceed customer
+              expectations.
             </p>
             <Link to="/about">
               <button className="btn-flip">Read More</button>

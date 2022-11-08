@@ -63,13 +63,12 @@ const Wrapper = styled.div`
     .brand-logo {
       padding-bottom: 30px;
     }
-    
+
     .company {
-      padding-left: 7px;
+      padding-left: 14%;
       padding-top: 20px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
       align-items: center;
     }
     .logo {

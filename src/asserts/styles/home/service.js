@@ -13,6 +13,7 @@ const Wrapper = styled.main`
     justify-content: center;
   }
   .service1 {
+    margin-top: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -27,7 +28,7 @@ const Wrapper = styled.main`
   }
   .info {
     text-align: center;
-    font-size: 20px;
+    font-size: 21px;
     padding-top: 10px;
     color: white;
   }
@@ -53,9 +54,10 @@ const Wrapper = styled.main`
     }
     .info {
       text-align: center;
-      font-size: 20px;
+      font-size: 24px;
       padding-top: 10px;
       color: white;
+      width: 100% !important;
     }
   }
   @media (max-width: 768px) {
@@ -83,7 +85,8 @@ const Wrapper = styled.main`
     }
     .info {
       text-align: center;
-      font-size: 19px;
+      font-size: 20px !important;
+
       padding-top: 10px;
       color: white;
     }

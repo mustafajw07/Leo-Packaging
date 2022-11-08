@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 const Wrapper = styled.main`
   .container-fluid {
-    background: #bf8f4e;
-    margin-top: 7%;
-    // border: 90px solid #bf8f4e;
-    height: 350px;
+    background: #bf8f4e !important;
+    margin-top: 12%;
+    border: 90px solid #bf8f4e;
+    // height: 600px;
   }
   .container {
     height: 432px;
@@ -13,7 +13,7 @@ const Wrapper = styled.main`
     background: #323237;
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
+    margin: 50px auto !important;
   }
   .txt {
     color: white;
@@ -22,7 +22,7 @@ const Wrapper = styled.main`
     font-size: 70px;
   }
   .smtxt {
-    font-size: 22px;
+    font-size: 26px;
     width: 100%;
   }
   .smalltxt {
@@ -55,60 +55,23 @@ const Wrapper = styled.main`
     background: white;
   }
 
-  @media (max-width: 766px) {
+  @media (min-width: 280px) {
     .container-fluid {
       background: #bf8f4e;
-      margin-top: 0%;
-      // border: 5px solid #bf8f4e;
+      margin-top: 12% !important;
+      border: 10px solid #bf8f4e;
+      margin-left: -1%;
     }
     .container {
-      margin-left: 0%;
-      width: 100%;
-      background: #323237;
-      display: flex;
-      flex-direction: column;
-      height: 530px;
-    }
-    .img {
-      margin-left: 26%;
-      height: 190px;
-      width: 190px;
-      margin-top: 10px;
-    }
-    .txt {
-      color: white;
-      margin-left: 20px;
-      margin-top: 20px;
-      font-size: 50px;
-    }
-    .smtxt {
-      font-size: 20px;
-      width: 100%;
-    }
-    .smalltxt {
-      margin-top: 10px;
-      width: 80%;
-      font-size: 16px;
-    }
-  }
-
-  @media (min-width: 767px) and (max-width: 820px) {
-    .container-fluid {
-      background: #bf8f4e;
-      margin-top: 0%;
-      // border: 10px solid #bf8f4e;
-    }
-    .container {
-      margin-left: 10%;
-      width: 80%;
+      width: 980px;
       background: #323237;
       display: flex;
       flex-direction: row;
-      bottom: 100px;
+      margin-top: 10%;
     }
     .img {
-      height: 300px;
-      width: 300px;
+      height: 430px;
+      width: 410px;
       // margin-left: 17%;
     }
     .txt {
@@ -123,43 +86,8 @@ const Wrapper = styled.main`
     }
     .smalltxt {
       margin-top: 10px;
-      width: 60%;
-      font-size: 15px;
-    }
-  }
-  @media (min-width: 821px) and (max-width: 1205px) {
-    .container-fluid {
-      background: #bf8f4e;
-      margin-top: 8%;
-      // border: 10px solid #bf8f4e;
-    }
-    .container {
-      margin-left: 10%;
       width: 80%;
-      background: #323237;
-      display: flex;
-      flex-direction: row;
-      bottom: 100px;
-    }
-    .img {
-      height: 300px;
-      width: 300px;
-      // margin-left: 17%;
-    }
-    .txt {
-      color: white;
-      margin-left: 70px;
-      margin-top: 30px;
-      font-size: 50px;
-    }
-    .smtxt {
-      font-size: 20px;
-      width: 100%;
-    }
-    .smalltxt {
-      margin-top: 10px;
-      width: 60%;
-      font-size: 15px;
+      font-size: 19px;
     }
   }
 `;

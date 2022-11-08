@@ -6,12 +6,14 @@ const Wrapper = styled.main`
     font-size: 95px;
     padding-left: 150px;
     text-align: justify;
+    background: #f9f5f2;
   }
   .container {
     padding-bottom: 30px;
     padding-left: 0;
     display: flex;
     flex-direction: row;
+    background: #f9f5f2;
   }
   .para {
     width: 40%;
