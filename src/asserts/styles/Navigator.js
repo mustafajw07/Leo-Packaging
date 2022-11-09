@@ -34,7 +34,7 @@ const Wrapper = styled.main`
   .logo {
     order: 1;
     font-size: 2.3rem;
-    width: 70px;
+    width: 90px;
     height: 70px;
   }
 
@@ -144,7 +144,7 @@ const Wrapper = styled.main`
       top: 5px;
       right: 15px;
       font-size: 2.5rem;
-      width: 55px;
+      width: 65px;
       height: 55px;
     }
     .navbar-container input[type="checkbox"]:checked ~ .menu-items {

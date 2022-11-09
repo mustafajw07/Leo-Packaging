@@ -22,7 +22,7 @@ function Video() {
           <div className="video">
             <div>
               <p className="top">WE INVEST IN</p>
-              <h1>Your Future.</h1>
+              <h1>Your Future</h1>
               <p>A one stop solution for all things Paper</p>
             </div>
           </div>

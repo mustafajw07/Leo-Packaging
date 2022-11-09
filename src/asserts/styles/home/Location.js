@@ -35,11 +35,11 @@ const Wrapper = styled.main`
     height: 783px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     .head {
       padding-left: 90px;
       padding-top: 50px;
-      font-size: 60px;
+      font-size: 40px;
     }
     .container {
       padding-top: 20px;

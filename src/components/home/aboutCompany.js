@@ -5,7 +5,7 @@ import Wrapper from "../../asserts/styles/home/aboutCompany";
 function aboutCompany() {
   return (
     <Wrapper>
-      <div className="container-fluid mt5">
+      <div className="container-fluid ">
         <div className="container">
           <img
             className="img "

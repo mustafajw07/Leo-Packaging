@@ -53,21 +53,32 @@ const Wrapper = styled.div`
     }
 
     .company {
-      padding-left: 14%;
+      padding-left: 20%;
       padding-top: 20px;
       display: grid;
       grid-template-columns: 1fr 1fr;
-      align-items: center;
     }
-    .logo {
+    .img {
+      height: 100px;
     }
   }
-  @media (max-width: 768px) {
+  @media (min-width: 248px) and (max-width: 767px) {
     .head {
       text-align: center;
       padding-top: 30px;
       font-size: 30px;
       letter-spacing: 0.6em;
+    }
+    .company {
+      padding-left: 9%;
+      padding-right: 30px;
+      padding-top: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 35px;
+    }
+    .img {
+      height: 100px;
     }
   }
 `;

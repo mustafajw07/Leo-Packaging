@@ -47,7 +47,7 @@ const Wrapper = styled.main`
     align-items: center;
   }
   .video div {
-    color: #F9F5F2;
+    color: #f9f5f2;
     width: 100%;
   }
   .video div {
