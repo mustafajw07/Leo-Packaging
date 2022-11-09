@@ -96,7 +96,7 @@ const Wrapper = styled.main`
       font-size: 19px;
     }
   }
-  @media screen and (max-width: 1100px) and (min: width:961px) {
+  @media screen and (max-width: 1100px) and (min-width:961px) {
     .mt5 {
       margin-top: 20%;
     }

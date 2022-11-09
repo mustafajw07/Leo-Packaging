@@ -5,13 +5,7 @@ function Footer() {
   return (
     <Wrapper>
       <div className="footer">
-        {/* <div className="row">
-  <Link to="#"><i className="fa fa-facebook"></i></Link>
-  <Link to="#"><i className="fa fa-instagram"></i></Link>
-  <Link to="#"><i className="fa fa-youtube"></i></Link>
-  <Link to="#"><i className="fa fa-twitter"></i></Link>
-  </div> */}
-
+        
         <div className="row">
           <ul>
             <li>
@@ -27,8 +21,7 @@ function Footer() {
         </div>
 
         <div className="row">
-          Leo Paper & Packaging Copyright © 2022 Leo Paper & Packaging - All
-          rights reserved || Designed By: Mustafa
+          Leo Paper & Packaging Copyright © 2022 Leo Paper & Packaging
         </div>
       </div>
     </Wrapper>

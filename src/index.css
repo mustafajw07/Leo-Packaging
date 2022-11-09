@@ -21,27 +21,5 @@ body {
   font-family: "Teko";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #bf8f4e;
-}
-
-code {
-  font-family: "Teko", sans-serif;
-}
-.heading {
-  padding-top: 50px;
-  font-size: 35px;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.6em;
-  background-color: #bf8f4e;
-}
-
-@media (max-width: 768px) {
-  .heading {
-    padding-top: 30px;
-    font-size: 25px;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.6em;
-  }
+  background-color: #F9F5F2;
 }
