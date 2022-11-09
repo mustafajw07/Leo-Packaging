@@ -3,17 +3,20 @@ import styled from "styled-components";
 const Wrapper = styled.main`
   .container-fluid {
     background: #bf8f4e !important;
-    margin-top: 5%;
-    border: 90px solid #bf8f4e;
+    margin-top: 8%;
+    border: 10px solid #bf8f4e;
     // height: 600px;
+  }
+  .mt5 {
+    margin-top: 11%;
   }
   .container {
     height: 432px;
-    width: 980px;
+    width: 940px;
     background: #323237;
     display: flex;
     flex-direction: row;
-    margin: 50px auto !important;
+    margin: 0 auto !important;
   }
   .txt {
     color: white;
@@ -55,12 +58,15 @@ const Wrapper = styled.main`
     background: white;
   }
 
-  @media (min-width: 280px) {
+  @media screen and (max-width: 960px) and (min-width: 280px) {
     .container-fluid {
       background: #bf8f4e;
-      margin-top: 5% !important;
+      margin-top: -6%;
       border: 10px solid #bf8f4e;
       margin-left: -1%;
+    }
+    .mt5 {
+      margin-top: 0%;
     }
     .container {
       width: 980px;
@@ -90,5 +96,10 @@ const Wrapper = styled.main`
       font-size: 19px;
     }
   }
+  @media screen and (max-width: 1100px) and (min: width:961px) {
+    .mt5 {
+      margin-top: 20%;
+    }
+  } ;
 `;
 export default Wrapper;
