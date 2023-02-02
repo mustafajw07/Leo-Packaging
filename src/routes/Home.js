@@ -3,6 +3,7 @@ import Video from "../components/home/Video";
 import Service from "../components/home/Service";
 import Location from "../components/home/Location";
 import CompanySection from "../components/home/companySection/companySection";
+import Whatsappbtn from "../components/Whatsappbtn";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <CompanySection />
       <Service />
       <Location />
+      <Whatsappbtn />
       <Footer />
     </>
   );

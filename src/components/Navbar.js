@@ -24,7 +24,7 @@ function Navbar({ onClick }) {
               <Link to="/about">About</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact">Talk to Our Team of Experts</Link>
             </li>
           </ul>
           <Link to="/">
