@@ -32,10 +32,11 @@ const Wrapper = styled.main`
     display: flex;
   }
   .logo {
+    margin-top: 10px;
     order: 1;
     font-size: 2.3rem;
-    width: 90px;
-    height: 70px;
+    width: 110px;
+    height: 76px;
   }
 
   .menu-items li {

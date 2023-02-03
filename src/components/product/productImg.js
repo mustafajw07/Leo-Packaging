@@ -8,21 +8,21 @@ function productImg() {
   return (
     <Wrapper>
       <div className="box">
-        <div>
+        <div className="tooltip">
           <Link to={"/contact"}>
-            <img className="item" src={pic1} alt="Example " />
+            <img className="item" src={pic1} alt="Example " title="Get a Quote Now"/>
           </Link>
           <p>Corrugated Roll</p>
         </div>
         <div>
           <Link to={"/contact"}>
-            <img className="item" src={pic2} alt="Example " />
+            <img className="item" src={pic2} alt="Example " title="Get a Quote Now"/>
           </Link>
           <p>Paper Core Boards</p>
         </div>
         <div>
           <Link to={"/contact"}>
-            <img className="item" src={pic1} alt="Example " />
+            <img className="item" src={pic1} alt="Example " title="Get a Quote Now"/>
           </Link>
           <p>Paper Straws </p>
           <p>(Comming Soon)</p>

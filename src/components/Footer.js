@@ -5,11 +5,10 @@ function Footer() {
   return (
     <Wrapper>
       <div className="footer">
-        
         <div className="row">
           <ul>
             <li>
-              <Link to="/contact">Contact us</Link>
+              <Link to="/contact">Talk to Our Team of Experts</Link>
             </li>
             <li>
               <Link to="/about">About Us</Link>
