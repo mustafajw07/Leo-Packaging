@@ -21,5 +21,9 @@ body {
   font-family: "Teko";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #F9F5F2;
+  /* background-color: #F9F5F2; */
+  background-color: #bf8f4e;
+}
+.bg{
+  background-color: #F9F5F2 !important;
 }
