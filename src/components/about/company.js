@@ -14,7 +14,7 @@ function company() {
     <Wrapper>
       <div className="container">
         <div className="name">
-          <h2 className="head">COMPANY THAT TRUST US</h2>
+          <h2 className="head">Companies that trust us</h2>
           <div className="smallcontainer">
             <div className="bg">
               <div id="brand-logo" className="brand-logo">

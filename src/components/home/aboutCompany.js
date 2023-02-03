@@ -15,16 +15,12 @@ function aboutCompany() {
             width={432}
           />
           <span className="txt">
-            ABOUT US
+          Leo Paper & Packaging LLC
             <p className="smalltxt">
-              Leo Paper Packaging is one of the leading Paper Core and
-              Corrugated Sheet manufacturers in UAE.
+            We are one of the leading Paper Core and Corrugated Sheet manufacturers in UAE.
             </p>
             <p className="smalltxt">
-              With over 6 years of experience within the packaging industry, Leo
-              Paper Packaging combines its technical expertise with market
-              insights to deliver customized solutions that exceed customer
-              expectations.
+            With over 6 years of experience within the packaging industry, we combine our technical expertise with market insights to deliver customized solutions that exceed customer expectations.
             </p>
             <Link to="/about">
               <button className="btn-flip">Read More</button>
