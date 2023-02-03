@@ -9,20 +9,22 @@ function aboutUs() {
           <h1>ABOUT US</h1>
 
           <p className="para">
-            Leo Paper & Packaging Packaging is one among the most important
-            producers of top quality folding cartons working with customers
-            across industry segments.
+            Leo Paper & Packaging LLC is one of the leading and fastest emerging
+            corrugate roll and paper core manufacturers in the UAE working with
+            customers across multiple industry segments.
           </p>
           <p className="para">
-            With experience of 25+ years within the printing and packaging
-            industry,Leo Paper & Packaging Packaging combines its technical
-            expertise with market insights to deliver customized solutions that
-            exceed customer expectations
+            Our state-of-the-art manufacturing facity with machinery imported
+            from Germany, Italy, Japan, China etc. is equipped to produce
+            corrugated sheets & paper cores with a variety of specifications as
+            per the requirements of the clients.
           </p>
           <p className="para">
-            We engage with brand owners early within the development process to
-            know their specific needs, and partner with them to make packs that
-            stand out on the shelves and shape consumer experiences.
+            We pride ourseleves in having an in house team of paper industry
+            professionals who are constantly engaged in research and development
+            of new products and technologies, allowing us to deliver the
+            cheapest and most reliable solutions to businesses across
+            multiple industries.
           </p>
         </div>
         <img
