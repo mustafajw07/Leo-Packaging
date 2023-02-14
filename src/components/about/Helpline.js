@@ -18,8 +18,8 @@ function Helpline() {
             ></img>
             <p className="head">PACKAGING</p>
             <p className="info">
-              Leo Paper & Packaging offers a good range of customized packaging
-              solutions for various sorts of transport modes.
+            Leo Paper & Packaging offers a wide range of customized packaging
+            solutions for different types of transport modes.
             </p>
           </div>
           <div className="container1">
@@ -30,8 +30,8 @@ function Helpline() {
             ></img>
             <p className="head">CONSULTATION</p>
             <p className="info">
-              Leo Paper & Packaging global network of packaging and logistics
-              engineers give customers global access to high-quality competence.
+            Leo Paper & Packaging offers services at offers that make our
+            customers happy and trust us for all their packaging solutions.
             </p>
           </div>
           <div className="container1">
@@ -42,9 +42,9 @@ function Helpline() {
             ></img>
             <p className="head">SERVICE</p>
             <p className="info">
-              Leo Paper & Packaging provides a 24/7 support to help its
-              customers solve their packaging issues. It is known for its
-              customer loyalty.
+            Leo Paper & Packaging delivers a top quality product. All the
+            delivers go through multiple quality check before reaching the
+            customer.
             </p>
           </div>
         </div>
