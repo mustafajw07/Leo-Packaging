@@ -3,18 +3,17 @@ import Form from "../components/contact/Form";
 import Footer from "../components/Footer";
 import Main from "../components/contact/Main";
 import Whatsappbtn from "../components/Whatsappbtn";
-import Map from "../components/Map";
 
 function Contact() {
   return (
     <>
-    <section className="bg">
-      <Navigator />
-      <Main />
-      <Form />
-      <Map />
-      <Whatsappbtn />
-      <Footer />
+      <section className="bg">
+        <Navigator />
+        <Main />
+        <Form />
+        {/* <Map /> */}
+        <Whatsappbtn />
+        <Footer />
       </section>
     </>
   );
