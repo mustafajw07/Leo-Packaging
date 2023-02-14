@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Wrapper = styled.main`
   .container-fluid {
     background: #bf8f4e !important;
-    margin-top: 6%;
+    margin-top: 7%;
     border: 25px solid #bf8f4e;
     // height: 600px;
   }
