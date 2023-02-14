@@ -8,7 +8,7 @@ function Map() {
         <iframe
           title="Leo Packaging"
           className="map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120688.37937787251!2d72.75664598360657!3d19.041220047421408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cfae855ea329%3A0x1f1d6a8f00acde6b!2suniversal%20hardware!5e0!3m2!1sen!2sin!4v1674135101506!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3599.557640618105!2d55.67847031501674!3d25.55310798373189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDMzJzExLjIiTiA1NcKwNDAnNTAuNCJF!5e0!3m2!1sen!2sin!4v1676382181405!5m2!1sen!2sin"
           style={{ border: 0 }}
           allowfullscreen=""
           loading="lazy"

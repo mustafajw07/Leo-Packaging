@@ -2,16 +2,12 @@ import Wrapper from "../../asserts/styles/contact/Form";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 function Form() {
-
   return (
     <>
       <Wrapper className="full-page">
         <div className="container">
           <div className="row">
             <div className="address">
-              <p onClick={() => window.open('https://www.google.com/maps?q=25.553108,55.680659', '_blank')} id='address'>
-                <i class="bi bi-geo-alt-fill"></i>Location
-              </p>
               <p>
                 <a className="txt" href="tel:+971528676222">
                   <i className="bi bi-telephone-inbound"></i>
