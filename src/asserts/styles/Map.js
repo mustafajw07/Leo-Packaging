@@ -2,28 +2,24 @@ import styled from "styled-components";
 
 const Wrapper = styled.main`
   .contact-wrapper {
-    display: flex;
-    align-items: center;
-    margin-left: 12%;
-    margin-bottom: 5%;
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
   }
   .map {
     width: 1100px;
     height: 450px;
   }
   @media (max-width: 767px) {
-    .contact-wrapper {
-      margin-left: 5%;
-    }
     .map {
       width: 95%;
       height: 300px;
     }
   }
   @media (max-width: 1280px) {
-    .contact-wrapper {
-      margin-left: 5%;
-    }
     .map {
       width: 95%;
       height: 400px;
