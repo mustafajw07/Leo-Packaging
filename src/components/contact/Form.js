@@ -2,23 +2,24 @@ import Wrapper from "../../asserts/styles/contact/Form";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 function Form() {
+
   return (
     <>
       <Wrapper className="full-page">
         <div className="container">
           <div className="row">
             <div className="address">
-              <p>
-                <i className="bi bi-house-door"> </i>Address
+              <p onClick={() => window.open('https://www.google.com/maps?q=25.553108,55.680659', '_blank')} id='address'>
+                <i class="bi bi-geo-alt-fill"></i>Location
               </p>
               <p>
                 <a className="txt" href="tel:+971528676222">
                   <i className="bi bi-telephone-inbound"></i>
                 </a>{" "}
-                +971 528676222
+                +971 54 706 4974
               </p>
               <p>
-                <i className="bi bi-whatsapp"></i>+971 528676222
+                <i className="bi bi-whatsapp"></i>+971 54 706 4974
               </p>
               <p>
                 <i className="bi bi-envelope"></i>moiz@alzamanpacks.com

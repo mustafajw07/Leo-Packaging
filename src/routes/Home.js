@@ -8,12 +8,14 @@ import Whatsappbtn from "../components/Whatsappbtn";
 function Home() {
   return (
     <>
+      
       <Video />
       <CompanySection />
       <Service />
       <Location />
       <Whatsappbtn />
       <Footer />
+     
     </>
   );
 }

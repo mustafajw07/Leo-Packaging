@@ -8,12 +8,14 @@ import Map from "../components/Map";
 function Contact() {
   return (
     <>
+    <section className="bg">
       <Navigator />
       <Main />
       <Form />
       <Map />
       <Whatsappbtn />
       <Footer />
+      </section>
     </>
   );
 }

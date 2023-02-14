@@ -1,5 +1,8 @@
 import React from "react";
 import Wrapper from "../../asserts/styles/home/service";
+import faster from "../../asserts/images/serviceLogoWhite/Faster.png"
+import cheaper from "../../asserts/images/serviceLogoWhite/Cheaper.png"
+import quality from "../../asserts/images/serviceLogoWhite/Quality.png"
 
 function Service() {
   return (
@@ -8,7 +11,7 @@ function Service() {
         <div className="container1">
           <img
             className="service1"
-            src="https://static.wixstatic.com/media/cc923e_ca47b21b920d4879b497dbb47dc5685b~mv2.png/v1/fill/w_138,h_130,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/boxes%2520copy_edited.png"
+            src={faster}
             alt=""
           ></img>
           <p className="head">50% Faster</p>
@@ -20,7 +23,7 @@ function Service() {
         <div className="container1">
           <img
             className="service1"
-            src="https://static.wixstatic.com/media/cc923e_ca47b21b920d4879b497dbb47dc5685b~mv2.png/v1/fill/w_138,h_130,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/boxes%2520copy_edited.png"
+            src={quality}
             alt=""
           ></img>
           <p className="head">Quality Assurance</p>
@@ -32,7 +35,7 @@ function Service() {
         <div className="container1">
           <img
             className="service1"
-            src="https://static.wixstatic.com/media/cc923e_ca47b21b920d4879b497dbb47dc5685b~mv2.png/v1/fill/w_138,h_130,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/boxes%2520copy_edited.png"
+            src={cheaper}
             alt=""
           ></img>
           <p className="head">6% Cheaper</p>

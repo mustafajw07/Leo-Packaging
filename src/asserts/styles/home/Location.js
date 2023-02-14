@@ -18,7 +18,7 @@ const Wrapper = styled.main`
   .para {
     width: 40%;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 35px;
     font-weight: lighter;
     font-size: 25px;
   }

@@ -12,11 +12,12 @@ function Image() {
         <div className="container">
           <div className="video">
             <div>
-              <p>COMPANY OVERVIEW</p>
               <h1>
-                Providing Best Business Solution For Growing Your Business
+                A Class Apart
               </h1>
-              <p>We Have More Than 25+ Years Practical Experience</p>
+              <p>In our 6 years of existence, we have established a dominance in the GCC 
+                <br />
+                Paper Market owing to our unbeaten customer service and after sales support.</p>
             </div>
           </div>
         </div>

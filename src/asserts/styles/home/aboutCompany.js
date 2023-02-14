@@ -20,7 +20,7 @@ const Wrapper = styled.main`
     color: white;
     margin-left: 75px;
     margin-top: 30px;
-    font-size: 70px;
+    font-size: 50px;
   }
   .smtxt {
     font-size: 26px;
@@ -75,7 +75,7 @@ const Wrapper = styled.main`
     }
     .txt {
       color: white;
-      font-size: 35px;
+      font-size: 25px;
     }
     .smtxt {
       font-size: 19px;
@@ -124,7 +124,7 @@ const Wrapper = styled.main`
       color: white;
       margin-left: 75px;
       margin-top: 30px;
-      font-size: 70px;
+      font-size: 50px;
     }
     img {
       height: 532px;

@@ -43,6 +43,10 @@ const Wrapper = styled.section`
     margin-bottom: 20px;
   }
 
+  #address{
+    cursor: pointer;
+  }
+
   @keyframes fadeInUp {
     0% {
       opacity: 0;

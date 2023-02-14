@@ -16,7 +16,9 @@ function Photo() {
               <h1>Quality Speaks for itself </h1>
               <p>
                 With a customer retention rate of more than 80%, Leo Paper & Packaging takes
-                pride in being one of the most consistent and quality concious
+                pride in being one of 
+                <br />
+                the most consistent and quality concious
                 manufacturers of paper related products in UAE
               </p>
             </div>
