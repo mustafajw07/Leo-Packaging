@@ -7,6 +7,7 @@ const Wrapper = styled.div`
     min-height: 25rem;
     width: 100%;
     overflow: inherit;
+    
   }
 
   header .pic {
@@ -24,12 +25,14 @@ const Wrapper = styled.div`
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
+    
   }
 
   header .container {
     position: relative;
     z-index: 2;
     height: 100%;
+    
   }
 
   header .overlay {
@@ -47,6 +50,7 @@ const Wrapper = styled.div`
     text-align: center;
     height: 100%;
     align-items: center;
+    
   }
   .video div {
     color: #F9F5F2;
@@ -100,6 +104,7 @@ const Wrapper = styled.div`
       }
       header .overlay{
         height: inherit;
+        
     }
       header .container {
         height: 150px;
