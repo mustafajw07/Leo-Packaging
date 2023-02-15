@@ -8,6 +8,7 @@ const Wrapper = styled.section`
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 90px;
     color: #2d2d2d;
   }
   .row {
@@ -15,17 +16,18 @@ const Wrapper = styled.section`
     flex-direction: row;
     padding: 10px;
     margin-bottom: 30px;
-    margin-right: -15px;
-    margin-left: -15px;
+    // margin-right: -15px;
+    // margin-left: -15px;
+    justify-content:space-evenly;
   }
   .contact-wrapper {
     display: flex;
     align-items: center;
-    margin-right: 5%;
+    margin-right: 3%;
   }
   .map {
-    width: 650px;
-    height: 450px;
+    width: 540px;
+    height: 330px;
   }
   @media (max-width: 767px) {
     .contact-wrapper {
@@ -41,8 +43,9 @@ const Wrapper = styled.section`
   @media (max-width: 1280px) {
     .map {
       width: 450px;
-      height: 400px;
+      height: 350px;
     }
+
   }
   .address {
     width: 50%;
@@ -85,7 +88,7 @@ const Wrapper = styled.section`
   }
   .form {
     margin-right: 10px;
-    width: 50%;
+    width: 75%;
   }
 
   .txt {
