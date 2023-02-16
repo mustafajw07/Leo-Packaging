@@ -8,6 +8,7 @@ const Wrapper = styled.section`
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 90px;
     color: #2d2d2d;
   }
   .row {
@@ -15,8 +16,36 @@ const Wrapper = styled.section`
     flex-direction: row;
     padding: 10px;
     margin-bottom: 30px;
-    margin-right: -15px;
-    margin-left: -15px;
+    // margin-right: -15px;
+    // margin-left: -15px;
+    justify-content:space-evenly;
+  }
+  .contact-wrapper {
+    display: flex;
+    align-items: center;
+    margin-right: 3%;
+  }
+  .map {
+    width: 540px;
+    height: 330px;
+  }
+  @media (max-width: 767px) {
+    .contact-wrapper {
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-bottom: 40px;
+    }
+    .map {
+      width: 100%;
+      height: 200px;
+    }
+  }
+  @media (max-width: 1280px) {
+    .map {
+      width: 450px;
+      height: 350px;
+    }
+
   }
   .address {
     width: 50%;
@@ -43,7 +72,7 @@ const Wrapper = styled.section`
     margin-bottom: 20px;
   }
 
-  #address{
+  #address {
     cursor: pointer;
   }
 
@@ -59,7 +88,7 @@ const Wrapper = styled.section`
   }
   .form {
     margin-right: 10px;
-    width: 50%;
+    width: 75%;
   }
 
   .txt {
@@ -190,7 +219,7 @@ const Wrapper = styled.section`
     outline: inherit;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     .row {
       flex-direction: column;
     }

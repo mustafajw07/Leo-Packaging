@@ -7,12 +7,13 @@ import Whatsappbtn from "../components/Whatsappbtn";
 function Contact() {
   return (
     <>
-    <section className="bg">
-      <Navigator />
-      <Main />
-      <Form />
-      <Whatsappbtn />
-      <Footer />
+      <section className="bg">
+        <Navigator />
+        <Main />
+        <Form />
+        {/* <Map /> */}
+        <Whatsappbtn />
+        <Footer />
       </section>
     </>
   );
