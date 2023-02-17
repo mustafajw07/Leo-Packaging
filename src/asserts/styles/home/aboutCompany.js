@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Wrapper = styled.main`
   .container-fluid {
     background: #bf8f4e !important;
-    margin-top: 7%;
+    margin-top: 15%;
     border: 25px solid #bf8f4e;
     // height: 600px;
   }
@@ -59,7 +59,7 @@ const Wrapper = styled.main`
   @media (max-width: 767px) {
     .container-fluid {
       background: #bf8f4e;
-      margin-top: 0%;
+      margin-top: 10%;
       border: 1px solid #bf8f4e;
       margin-left: 0%;
     }
@@ -90,7 +90,7 @@ const Wrapper = styled.main`
   @media (min-width: 914px) and (max-width: 1048px) {
     .container-fluid {
       background: #bf8f4e !important;
-      margin-top: 12%;
+      margin-top: 17%;
       border: 10px solid #bf8f4e;
       // height: 600px;
     }
@@ -107,7 +107,7 @@ const Wrapper = styled.main`
   @media (min-width: 768px) and (max-width: 913px) {
     .container-fluid {
       background: #bf8f4e !important;
-      margin-top: 0%;
+      margin-top: 10%;
       border: 10px solid #bf8f4e;
       // height: 600px;
     }
