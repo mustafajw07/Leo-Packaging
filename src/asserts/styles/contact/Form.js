@@ -87,8 +87,7 @@ const Wrapper = styled.section`
     }
   }
   .form {
-    margin-right: 10px;
-    width: 75%;
+    width: 90%;
   }
 
   .txt {
@@ -98,7 +97,7 @@ const Wrapper = styled.section`
   /* From uiverse.io by @alexruix */
   .input {
     line-height: 28px;
-    width: 70%;
+    width: 90%;
     border: 2px solid transparent;
     border-bottom-color: #777;
     padding: 0.2rem 0;
@@ -228,8 +227,7 @@ const Wrapper = styled.section`
       margin-left: 0;
     }
     .form {
-      width: 100%;
-      margin-right: 0;
+      width: 90%;
     }
     .input {
       width: 90%;
