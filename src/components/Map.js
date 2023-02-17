@@ -4,7 +4,7 @@ import Wrapper from "../asserts/styles/Map";
 function Map() {
   return (
     <Wrapper>
-      <div class="contacts contact-wrapper">
+      <div className="contacts contact-wrapper">
         <iframe
           title="Leo Packaging"
           className="map"

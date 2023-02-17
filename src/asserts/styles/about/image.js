@@ -6,7 +6,7 @@ const Wrapper = styled.div`
     height: 75vh;
     min-height: 25rem;
     width: 100%;
-    overflow: inherit;
+    overflow: hidden;
     
   }
 
