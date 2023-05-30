@@ -9,9 +9,9 @@ function aboutUs() {
           <h1>ABOUT US</h1>
 
           <p className="para">
-            Leo Paper & Packaging LLC is one of the leading and fastest emerging
-            corrugate roll and paper core manufacturers in the UAE working with
-            customers across multiple industry segments.
+            Leo Paper & Packaging Materials Industry LLC is one of the leading
+            and fastest emerging corrugate roll and paper core manufacturers in
+            the UAE working with customers across multiple industry segments.
           </p>
           <p className="para">
             Our state-of-the-art manufacturing facity with machinery imported
