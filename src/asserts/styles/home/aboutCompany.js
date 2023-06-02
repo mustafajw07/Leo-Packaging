@@ -18,9 +18,9 @@ const Wrapper = styled.main`
   }
   .txt {
     color: white;
-    margin-left: 75px;
+    margin-left: 55px;
     margin-top: 30px;
-    font-size: 50px;
+    font-size: 41px;
   }
   .smtxt {
     font-size: 26px;
