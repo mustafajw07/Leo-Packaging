@@ -14,7 +14,8 @@ function Video() {
           loop="loop"
         >
           <source
-            src="https://video.wixstatic.com/video/11062b_53151efffd6f4585a916f24eae783c28/1080p/mp4/file.mp4"
+            // src="https://video.wixstatic.com/video/11062b_53151efffd6f4585a916f24eae783c28/1080p/mp4/file.mp4"
+            // src="../../asserts/images/homevideo2.mp4"
             type="video/mp4"
           />
         </video>

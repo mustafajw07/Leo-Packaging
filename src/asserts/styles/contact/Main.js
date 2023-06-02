@@ -28,6 +28,10 @@ const Wrapper = styled.section`
     font-size: 46px;
     transform: matrix(1, 0, 0, 1, 0, 0);
   }
+  .para1 {
+    font-size: 26px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
 
   @keyframes fadeInAnimation {
     0% {

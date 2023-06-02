@@ -31,8 +31,8 @@ const Wrapper = styled.main`
     display: flex;
   }
   .logo {
-    order: 1;
-    font-size: 2.3rem;
+    // order: 1;
+    // font-size: 2.3rem;
     width: 130px;
     height: 96px;
   }
