@@ -1,5 +1,6 @@
 import Wrapper from "../../asserts/styles/home/video";
 import Navbar from "../Navbar";
+import video from "../../asserts/images/home/LEO Video.mp4";
 
 function Video() {
   return (
@@ -16,6 +17,7 @@ function Video() {
           <source
             // src="https://video.wixstatic.com/video/11062b_53151efffd6f4585a916f24eae783c28/1080p/mp4/file.mp4"
             // src="../../asserts/images/homevideo2.mp4"
+            src={video}
             type="video/mp4"
           />
         </video>
